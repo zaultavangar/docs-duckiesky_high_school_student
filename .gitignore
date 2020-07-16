@@ -1,0 +1,7 @@
+out
+duckuments-dist
+.DS_Store
+node_modules
+.idea
+crossrefs_detected.txt
+opmanual_developer.book.yaml

@@ -1,0 +1,41 @@
+version: 3
+jobs:
+  build:
+    docker:
+      - image: duckietown/docs-build:daffy
+        environment:
+          COLUMNS: 160
+          TERM: xterm-256color
+
+    resource_class: large
+    steps:
+      - run:
+          name: "Adjust ssh settings for github"
+          command: |
+            mkdir -p ~/.ssh/
+            echo -e "\nHost github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+
+      - checkout
+
+      - run:
+          name: Compile
+          command: |
+            make -f /docs-build/Makefile.build
+
+      - run:
+          when: always
+          name: Package artifacts
+          command:  |
+            find duckuments-dist -name '*.old' -delete
+            make  -f /docs-build/Makefile.build package-artifacts
+
+      - store_artifacts:
+          path: out/package.tgz
+          destination: out/package.tgz
+
+      - store_artifacts:
+          path: duckuments-dist
+          destination: duckuments-dist
+
+      - test-results-store:
+          path: duckuments-dist/junit
