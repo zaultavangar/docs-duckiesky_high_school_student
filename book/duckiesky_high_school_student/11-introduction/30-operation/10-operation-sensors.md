@@ -59,7 +59,10 @@
  
 3. **LED** - actuator that lights up that you will be using in some experiments
 
-TODO: insert picture of what the LED looks like or delete it if it's not in the drone kit
+<figure>
+   <figcaption>2 Clockwise and 2 Counterclockwise Blade Propellers (with Extras) </figcaption>
+   <img style='width:16em' src="https://m.media-amazon.com/images/I/31FFckRlv7L.jpg"/>
+</figure>
 
 #### Controllers in your drone: 
 
