@@ -6,25 +6,22 @@ When there is a difficult situation, there are multiple possible solutions. Ethi
 
 By considering ethics during decision making, we can make better decisions that would benefit individuals and society as a whole.
  
- 
 Specifically for ethical issues that are related to AI, they can be split into three different categories.
  
 The ethical implications of what AI is:
  
-1) Bias and Fairness 
-2) Accountability and Remediability 
-3) Transparency, Interpretability, and Explainability 
+1. Bias and Fairness 
+2. Accountability and Remediability 
+3. Transparency, Interpretability, and Explainability 
  
 THe ethical implications related to what AI does:
  
-1) Safety 
-2) Human-AI interaction 
-3) Cyber-security and Malicious Use 
-4) Privacy, Control, and Agency 
+1. Safety 
+2. Human-AI interaction 
+3. Cyber-security and Malicious Use 
+4. Privacy, Control, and Agency 
  
 ##### Correctness and Uncertainty of Algorithms and/or Autonomous Systems
- 
-Teachers explain autonomous systems, AI, ML, DL, and usage of algorithms:
  
 By incorporating artificial intelligence (AI) into systems, they gain the potential to accomplish tasks that usually rely on the intelligence of humans. Systems can become autonomous, and do not have to rely on human control and decisions. An example of an autonomous system that is currently developing is autonomous cars.
  
@@ -80,16 +77,16 @@ Pilots can temporarily switch MCAS off, however the system will restart and cont
  
 Other flaws also contributed to the incident: 
  
-1) Insufficient testing:
+1. Insufficient testing:
  
 Boeing and FAA agreed to not install safety features, which analysts say later that these features could have saved both the planes from crashing (The Washington Post).
  
 <!-- https://www.washingtonpost.com/local/trafficandcommuting/boeing-minimized-to-faa-the-importance-of-flight-control-system-implicated-in-737-max-crashes-new-report-says/2020/07/01/9900adda-bba4-11ea-8cf5-9c1b8d7f84c6_story.html-->
-2) Accountability:
+2. Accountability:
  
 Boeing did not provide the risk assessment about the MCAS until very late, a couple of months before the MAX was certified. FAA also based on findings by Boeing that were inaccurate (The Washington Post).
  
-3) Lack of notice to pilots:
+3. Lack of notice to pilots:
  
 During their findings, Boeing calculated that an MCAS failure was also impossible. If it did happen, it is believed to be relatively low risk because according to the FAA, it is assumed that pilots can respond to unexpected situations within three seconds (Seattle Times).
  
@@ -156,7 +153,7 @@ The Moral Machine focuses on 9 different themes:
  
 The results of the Moral Machine was closely related with culture and economics (Technology Review).
  
-Students may read this article: https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/ to learn more about the experiment and findings.
+Students may read this [article](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/) to learn more about the experiment and findings.
  
 While this is presented in a very "game" like way, it is very interesting to take into consideration moral concepts that we think about in extreme situations.
  
@@ -213,7 +210,7 @@ and https://www.wired.com/story/security-robotics/
  
 There has been consideration of using autonomous systems for militarization. This could be for making military based decisions or using these systems to take action on made military decisions.
  
-Students can watch this video to learn more about Slaughterbots: https://www.youtube.com/watch?v=9CO6M2HsoIA
+Students can watch this [video](https://www.youtube.com/watch?v=9CO6M2HsoIA) to learn more about Slaughterbots
  
  
 <!-- discussion of ITAR, weapons, discussion of stopping war robots; robotics weapons vs chemical weapons; strong regulations? -->
@@ -259,13 +256,13 @@ It also includes the uses of robots to help keep elderly, disabled, young childr
  
 While there are many benefits such as being able to take care and monitor health of whoever they are responsible for and can provide them with company, there are several ethical concerns:
  
-1) Privacy/Security:
+1. Privacy/Security:
  
 Robots that spend a lot of time monitoring their patients or people that they are responsible for, may have the capability to be tapped into.
  
 Especially in the medical field, these robots may contain snippets of important information such as health records, or video feeds of their patients.
  
-2) Trust between robots and humans, and their interactions:
+2. Trust between robots and humans, and their interactions:
  
 Humans have emotions while robots do not. Humans may have the capability to trust their robots too much, which can result in harm from the remote or manipulation of humans.
  
@@ -292,17 +289,17 @@ UAVs have potential in three areas: humanitarian, development, and peacekeeping 
  
 In 2013, the UN has launched the first UAV mission to help protect civilians in the Democratic Republic of Congo (UN News).
  
-Read this article for more information: https://news.un.org/en/story/2017/09/564452-feature-does-drone-technology-hold-promise-un and https://news.un.org/en/story/2013/12/456942-un-launches-unmanned-surveillance-aircraft-better-protect-civilians-vast-dr
+Read this [article](https://news.un.org/en/story/2017/09/564452-feature-does-drone-technology-hold-promise-un) for more information: and [article 2](https://news.un.org/en/story/2013/12456942-un-launches-unmanned-surveillance-aircraft-better-protect-civilians-vast-dr)
  
 #### Humanitarian Drone Guidelines
  
 "The most promising uses of drones include:
-• Mapping
-• Delivering lightweight essential items to remote or hard-
+1. Mapping
+2. Delivering lightweight essential items to remote or hard-
 to-access locations
-• Supporting damage assessments
-• Increasing situational awareness
-• Monitoring changes"
+3. Supporting damage assessments
+4. Increasing situational awareness
+5. Monitoring changes"
 (Relief Web)
  
  
