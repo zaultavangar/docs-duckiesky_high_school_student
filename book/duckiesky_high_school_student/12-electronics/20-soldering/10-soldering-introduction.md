@@ -12,3 +12,14 @@ Here's a step by step on how to tin a wire:
 6. Wipe away any excess solder with the iron being careful to not fling it too aggressively so to avoid burning someone/something.
 7. Remove the iron and clean it
 8. Let the wire cool.
+
+
+
+
+**Useful Resources and References**
+
+1. [For detailed instructions of each component and tinning](https://docs.duckietown.org/daffy/opmanual_sky/out/build_phase0.html)
+2. [Soldering Tutorial for Beginners in 5 easy steps. Supplemental video.](https://www.youtube.com/watch?v=Qps9woUGkvI)
+3. [How to Tin a Wire, in lesson, also supplemental](https://www.youtube.com/watch?v=pRPF4wpXX9Q)
+
+[Glossary](https://docs.google.com/document/d/1LJzESfH8VnLDAitNTwwa-iDZs-zY-KM2v1EuWFoLz6A/edit?usp=sharing)
