@@ -23,21 +23,28 @@ There is not a specific definition for the term "fairness". It is a challenge th
 
 <!-- https://ai.google/responsibilities/responsible-ai-practices/?category=fairness --> 
 
+These will be explained more in the Algorithmic Bias section of this lesson. 
 
-2. Accountability and Remediability 
+2. _Accountability and Remediability:_
 
-3. Transparency, Interpretability, and Explainability 
+
+
+3. _Transparency, Interpretability, and Explainability:_
 
  
 THe ethical implications related to what AI does:
  
-1. Safety 
+1. _Safety:_ 
 
-2. Human-AI interaction 
+2. _Human-AI interaction:_ 
 
-3. Cyber-security and Malicious Use 
+3. _Cyber-security and Malicious Use:_ 
 
-4. Privacy, Control, and Agency 
+AI systems 
+
+4. _Privacy, Control, and Agency:_
+
+AI systems learn from data provided during training, and they make predictions based on data input that they receive. The data may regard extremely sensative or important data, such as medical data. There must be measures put in place so that the data utilized is transparent _____. 
 
  
 ##### Correctness and Uncertainty of Algorithms and/or Autonomous Systems
@@ -69,7 +76,7 @@ This inaccuracy of the system is because of a data set that was "unfair" or did 
 University of Pittsburgh created a study in the 1990s to use a system to predict which pneumonia patients were low risk and which were at high risk. The system initially caused a large amount of concern to doctors because they found out that pneumonia patients with asthma was classified as low risk by the system. A rule system was implemented into the system to help solve this issue. After examining data closely, researchers founds that patients who had both pneumonia and asthma had a higher recovery rate. This is because when those patients were brought to the hospital, they were always considered to be at high risk, and immediately received proper treatment. However, the autonomous system simply believed that the presence of asthma results in being low risk, which is incorrect (Medium).
  
  
-#### Example: Teachers can teach about an example of Algorithmic inaccuracy: The Boeing 737 MAX.
+#### Example: The Boeing 737 MAX.
  
  
 There have been a number of accidents with the Boeing 737 MAX aircraft, which has resulted in the grounding of Boeing 737 MAX worldwide.
@@ -319,7 +326,6 @@ According to Relief Web, the most promising uses of drones regarding humanitaria
  
  
 <!-- https://reliefweb.int/sites/reliefweb.int/files/resources/Drones%20in%20Humanitarian%20Action.pdf -->
- 
  
  
 ##### Future impact of AI on human jobs and responsibilities
