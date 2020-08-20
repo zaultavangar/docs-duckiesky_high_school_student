@@ -1,31 +1,50 @@
 # Intro to Ethics {#introduction-relevance-ethics status=ready}
 
+
+##### What is Ethics? 
+
 The term ethics comes from the word "ethos", which is Greek for "way of living".
  
 When there is a difficult situation, there are multiple possible solutions. Ethics consists of moral principles and values of a person or a group of people. It affects how we choose to live our lives, what we think is wrong and right in morals and situations, and what our responsibilities are.
 
 By considering ethics during decision making, we can make better decisions that would benefit individuals and society as a whole.
  
-Specifically for ethical issues that are related to AI, they can be split into three different categories.
+Specifically for ethical issues that are related to AI, they can be split into different categories.
  
 The ethical implications of what AI is:
  
-1. Bias and Fairness 
+1. _Bias and Fairness:_
+
+AI systems are being used more and more to simulate real life situations and tasks. It is important for AI systems to minimize discrimination and bias. Bias can arise from things such as data adequacy, data bias, and model adequacy (Borealis AI). 
+
+<!-- https://www.borealisai.com/en/blog/tutorial1-bias-and-fairness-ai/ -->
+
+There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous/AI system that is fair. To create a model that is fair, requires a large understanding of various factors such as user experience, cultural, social, historical, political, legal, and ethic considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
+
+<!-- https://ai.google/responsibilities/responsible-ai-practices/?category=fairness --> 
+
+
 2. Accountability and Remediability 
+
 3. Transparency, Interpretability, and Explainability 
+
  
 THe ethical implications related to what AI does:
  
 1. Safety 
+
 2. Human-AI interaction 
+
 3. Cyber-security and Malicious Use 
+
 4. Privacy, Control, and Agency 
+
  
 ##### Correctness and Uncertainty of Algorithms and/or Autonomous Systems
  
 By incorporating artificial intelligence (AI) into systems, they gain the potential to accomplish tasks that usually rely on the intelligence of humans. Systems can become autonomous, and do not have to rely on human control and decisions. An example of an autonomous system that is currently developing is autonomous cars.
  
-AI systems utilize Deep Learning (DL) and Machine Learning (ML), which both rely on data matching and analysis algorithms.
+AI systems utilize Deep Learning (DL) and Machine Learning (ML), which both rely on data matching and analysis algorithms, allowing the systems to replicate intelligence of human brains and enabling them to learn without human guidance.
  
 There are benefits of using AI and autonomous systems and the use of algorithms in decision making processes.
  
@@ -38,8 +57,6 @@ The algorithms may not represent all the factors that are related to a situation
 Also, the way that AI systems learn and their actions may become more unpredictable as they are given more complicated tasks that require more decision making skills (Yampolskiy).
  
 #### Example: Husky Vs Wolf In Image Identification
- 
-Teachers explain a simple algorithmic inaccuracy due to unfair/unrepresentative data example.
  
 University of Washington wanted to create an image classifier that can identify wolves from huskies correctly. The AI systems were fed images to learn from. However, some photos of huskies are incorrectly categorized by the system as wolves. It turns out that the system was learning from the images that wolves are often found in images that had snowy backgrounds. So the system turned out to be simplying identifying if images had snow in the background (Medium).
  
@@ -59,7 +76,7 @@ There have been a number of accidents with the Boeing 737 MAX aircraft, which ha
  
 1) Lion Air Flight 610: domestic flight that took place on October 29, 2018. It crashed into the Java Sea shortly after takeoff. Resulted in deaths of all 189 passengers and crew.
  
-2) Ehiopian Airlines Flight 302: international flight that took place on March 10, 2019. It crashed shortly after takeoff, and resulted in deaths of all 157 people on the flight. 
+2) Ethiopian Airlines Flight 302: international flight that took place on March 10, 2019. It crashed shortly after takeoff, and resulted in deaths of all 157 people on the flight. 
  
  
 Teachers explain why MCAS was added and how the MCAS and a faulty sensor contributed to the grounding of the Boeing 737 MAX.
@@ -210,10 +227,6 @@ and https://www.wired.com/story/security-robotics/
  
 There has been consideration of using autonomous systems for militarization. This could be for making military based decisions or using these systems to take action on made military decisions.
  
-Students can watch this [video](https://www.youtube.com/watch?v=9CO6M2HsoIA) to learn more about Slaughterbots
- 
- 
-<!-- discussion of ITAR, weapons, discussion of stopping war robots; robotics weapons vs chemical weapons; strong regulations? -->
  
 #### International Traffic in Arms Regulations (ITAR)
  
@@ -293,14 +306,16 @@ Read this [article](https://news.un.org/en/story/2017/09/564452-feature-does-dro
  
 #### Humanitarian Drone Guidelines
  
-"The most promising uses of drones include:
+According to Relief Web, the most promising uses of drones regarding humanitarian purposes include:
 1. Mapping
-2. Delivering lightweight essential items to remote or hard-
-to-access locations
+
+2. Delivering lightweight essential items to remote or hard-to-access locations
+
 3. Supporting damage assessments
+
 4. Increasing situational awareness
-5. Monitoring changes"
-(Relief Web)
+
+5. Monitoring changes
  
  
 <!-- https://reliefweb.int/sites/reliefweb.int/files/resources/Drones%20in%20Humanitarian%20Action.pdf -->
