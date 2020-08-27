@@ -1,9 +1,13 @@
 # Git and Github {#introduction-curriculum-github status=ready}
 
+## Creating a GitHub Account
 - Here are the instructions to create a GitHub Account:
     - Go to [GitHub's Home Page](https://github.com/)
     - Click Sign Up and complete the process for creating an account with your information 
         1. You should also verify your email address when an email from GitHub is sent to you
+
+# Git and GitHub Information
+
 - What are Git and Github?
     - Git is a widely used version control system. 
         1. Version control systems are software programs that allow programmers and code-based project workers to manage the changes to their code-based projects over time with new versions.
@@ -27,6 +31,9 @@ Checkout these big name companies that have open-sourced GitHub projects! You ca
     - This very textbook is hosted through GitHub!
         1. We have worked really hard to make this curriculum for you, but we know there are bound to be mistakes or sections that can be improved. As a result, we would like you to be able to edit and improve this textbook; the more helpful you are in helping us improve this textbook, the better the course experience will be for you and for students learning this curriculum in the future!
         2. The next lesson, Markdown and Contributions, will cover the programming language each individual page of the textbook is written in. You will learn today about the overall structure of projects hosted through GitHub (like our textbook) and how to propose changes to a GitHub repo.
+
+## Learning Git and Github
+
 - Learn the Basics of Git and GitHub here!
     - First, follow this [Introduction to GitHub Tutorial](https://guides.github.com/activities/hello-world/)
     - Next, follow this [Forking Tutorial](https://guides.github.com/activities/forking/)
