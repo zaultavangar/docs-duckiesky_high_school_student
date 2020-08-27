@@ -6,7 +6,7 @@
     - Click Sign Up and complete the process for creating an account with your information 
         1. You should also verify your email address when an email from GitHub is sent to you
 
-# Git and GitHub Information
+## Git and GitHub Information
 
 - What are Git and Github?
     - Git is a widely used version control system. 

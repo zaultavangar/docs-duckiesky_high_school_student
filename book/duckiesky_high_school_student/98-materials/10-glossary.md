@@ -11,7 +11,7 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
 - Fork
     - A [fork](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original upstream repository. You can also open a pull request in the upstream repository and keep your fork synced with the latest changes since both repositories are still connected.
 - Git
-    - [Git](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is an open source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of. 
+    - [Git](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is an open-source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of. 
 - GitHub
     - [GitHub](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a Git repository hosting service, or an online datastructure that is a basis for storing and presenting these code projects.
 - HTML
