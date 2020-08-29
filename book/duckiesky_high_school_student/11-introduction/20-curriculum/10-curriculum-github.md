@@ -34,9 +34,9 @@ Checkout these big name companies that have open-sourced GitHub projects! You ca
 
 ## Learning Git and Github
 
+- [Here](https://drive.google.com/file/d/10cNHvO-TTIC7_tBin4QTZhMfuATdPnSV/view?usp=sharing) is a worksheet on GitHub defintions that you can use while going through the tutorials to keep track of the terms or afterwards to assess the material that you have learned!
 - Learn the Basics of Git and GitHub here!
-    - First, follow this [Introduction to GitHub Tutorial](https://guides.github.com/activities/hello-world/)
-    - Next, follow this [Forking Tutorial](https://guides.github.com/activities/forking/)
-        1. For this tutorial, you do not need to use GitHub Desktop or a text editor as of now, but you might want to read the section so you know what clones and commits are and how they are done!
-
-TODO: Insert an interactive worksheet or checklist for students to work through as they do the above tutorials.
+    - First, follow this [Introduction to GitHub Tutorial](https://guides.github.com/activities/hello-world/).
+    - Next, follow this [Forking Tutorial](https://guides.github.com/activities/forking/).
+        1. For this tutorial, you do not need to use GitHub Desktop or a text editor as of now, but you will want to read the section so you know what clones and commits are and how they are done!
+    - Last, follow this [Issue Tutorial](https://guides.github.com/features/issues/) up until the "Notifications, @mentions, and References" section.
