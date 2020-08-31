@@ -30,6 +30,8 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
     - A [pull request](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a proposed change to a repository submitted by a user and accepted or rejected by a repository's collaborators. 
 - Repository
     - A [repository](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files [including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
+- Syntax
+    - [Syntax](https://www.techopedia.com/definition/3959/syntax) refers to the rules that specify the correct combined sequence of symbols that can be used to form a correctly structured program using a given programming language.
 - Version Control Systems 
     - [Version control systems](https://www.atlassian.com/git/tutorials/what-is-version-control) are software programs that allow programmers and code-based project workers to manage the changes to their code-based projects over time with new versions.
 
