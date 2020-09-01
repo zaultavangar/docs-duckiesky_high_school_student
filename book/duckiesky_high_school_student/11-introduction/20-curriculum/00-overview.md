@@ -1,3 +1,3 @@
 # Interacting with our Curriculum {#subpart:introduction-curriculum status=ready}
 
-Module Overview
+This module provides an overview of industry-standard programs like GitHub and Markdown and ultimately will instill the skills for students to directly propose changes and raise issues with the DuckieSky curirculum.

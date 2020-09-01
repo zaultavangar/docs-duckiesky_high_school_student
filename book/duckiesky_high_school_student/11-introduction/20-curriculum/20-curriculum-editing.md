@@ -23,13 +23,25 @@
 Great! It's now time to put your newly acquired Markduck skills and GitHub skills from last lesson to use.
 
 - You have the knowledge to propose changes to our curriculum!
-    - Submit a pull request to change the next page __Students: Leave your mark here!__.
-        1. Hint: Use the pencil to edit the pages content from the video.
 
-TODO: Insert a Video Demo of editing our documents using GitHub
+Better: Exercise: Submit a pull request to change the next page __Unit A.2.3 - Students: Leave your mark here!__; Click on the the pencil in the top right corner of the page to be brought to our GitHub repo. View a video demo of an example pull request below.
 
-1. The first section of the video until 1:17 demonstrates how to make a pull request to propose changes to our textbook.
-2. The next section of the video from 1:17 to 2:15 demonstrates how to open and close a GitHub issue on our textbook repository.
-3. The last section from 2:15 to the end quickly 
+Be creative but you should have in your edit:
 
-TODO: Add requirements to the pull request (bolded, list, etc.)
+1. Add a new section for yourself with a level two heading (##) or higher.
+    - Don't use a level one heading (#) because that will create a new page!
+2. Tell us why you are interested in this course!
+3. Bold and/or italize words or phrases.
+4. Use an ordered or unordered list.
+5. Use a special tag to do something cool!
+
+Once you submit a pull request, hopefully one of our team members will be able to approve it as quickly as possible!
+
+### Helpful Materials to Propose Changes 
+
+- [Here](https://youtu.be/MplifsKP7j0) is a video demoing an example edit to the student page. This walks you through the process of submitting a pull request on our repo, which you can use to propose direct edits to any Markduck page in our textbook.
+    - As you learned in the last Unit, pull requests can be used to directly propose changes to a repository. Use this to propose changes anywhere in our textbook that you think you are able to improve (like a typo or a word/sentence/section). Don't worry too much about making an inaccurate change because a member of our team will always look over it before it goes through; just try your best! 
+- [Here](https://youtu.be/eVYg8khGkWI) is a video that demonstrates how to open and close a GitHub issue on our textbook repository.
+    - You can use GitHub Issues to propose alterations that deal with the structure and the hierarchical content of the textbook or to suggest changes that you are not in the position to fix yourself.
+
+Again, thank you for helping us and the DuckieSky community!
