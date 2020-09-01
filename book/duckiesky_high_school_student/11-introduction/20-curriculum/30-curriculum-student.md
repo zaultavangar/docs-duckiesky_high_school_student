@@ -2,14 +2,28 @@
 
 **Use your newly acquired Markduck skills and Duckietown knowledge to submit a pull request to edit this page!**
 
-Better: Hi! Dev <!-- Ramesh --> was here
+Be creative but you should have in your edit:
 
-                                                            Cesar was here. 
+1. Add a new section for yourself with a level two heading (##) or higher.
+    - Don't use a level one heading (#) because that will create a new page!
+2. Tell us why you are interested in this course!
+3. Bold and/or italize words or phrases.
+4. Use an ordered or unordered list.
+5. Use a special tag to do something cool!
 
-Peyton
+Once you submit a pull request, hopefully one of our team members will be able to approve it as quickly as possible!
 
-:) Rachel Ma says hello!
-Jake says: "Present"
+**__MAKE CHANGES BELOW THIS POINT__**
 
-**Danny**
 <!-- this is a comment; it will not appear in the outputted online book -->
+
+## Dev's Section
+
+I am interested in this course because:
+
+- I **love** drones!
+    - Specifically, drones with 4 propellers.
+        1. More specifically, drones with cameras.
+- I enjoy making _drone curriculum_
+
+Warning: I do not particularly like troubleshooting issues with drones.

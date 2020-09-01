@@ -1,9 +1,13 @@
 # Git and Github {#introduction-curriculum-github status=ready}
 
+## Creating a GitHub Account
 - Here are the instructions to create a GitHub Account:
     - Go to [GitHub's Home Page](https://github.com/)
     - Click Sign Up and complete the process for creating an account with your information 
         1. You should also verify your email address when an email from GitHub is sent to you
+
+## Git and GitHub Information
+
 - What are Git and Github?
     - Git is a widely used version control system. 
         1. Version control systems are software programs that allow programmers and code-based project workers to manage the changes to their code-based projects over time with new versions.
@@ -27,9 +31,12 @@ Checkout these big name companies that have open-sourced GitHub projects! You ca
     - This very textbook is hosted through GitHub!
         1. We have worked really hard to make this curriculum for you, but we know there are bound to be mistakes or sections that can be improved. As a result, we would like you to be able to edit and improve this textbook; the more helpful you are in helping us improve this textbook, the better the course experience will be for you and for students learning this curriculum in the future!
         2. The next lesson, Markdown and Contributions, will cover the programming language each individual page of the textbook is written in. You will learn today about the overall structure of projects hosted through GitHub (like our textbook) and how to propose changes to a GitHub repo.
-- Learn the Basics of Git and GitHub here!
-    - First, follow this [Introduction to GitHub Tutorial](https://guides.github.com/activities/hello-world/)
-    - Next, follow this [Forking Tutorial](https://guides.github.com/activities/forking/)
-        1. For this tutorial, you do not need to use GitHub Desktop or a text editor as of now, but you might want to read the section so you know what clones and commits are and how they are done!
 
-TODO: Insert an interactive worksheet or checklist for students to work through as they do the above tutorials.
+## Learning Git and Github
+
+- [Here](https://drive.google.com/file/d/10cNHvO-TTIC7_tBin4QTZhMfuATdPnSV/view?usp=sharing) is a worksheet on GitHub defintions that you can use while going through the tutorials to keep track of the terms or afterwards to assess the material that you have learned!
+- Learn the Basics of Git and GitHub here!
+    - First, follow this [Introduction to GitHub Tutorial](https://guides.github.com/activities/hello-world/).
+    - Next, follow this [Forking Tutorial](https://guides.github.com/activities/forking/).
+        1. For this tutorial, you do not need to use GitHub Desktop or a text editor as of now, but you will want to read the section so you know what clones and commits are and how they are done!
+    - Last, follow this [Issue Tutorial](https://guides.github.com/features/issues/) up until the "Notifications, @mentions, and References" section.
