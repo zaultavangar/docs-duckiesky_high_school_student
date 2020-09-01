@@ -16,3 +16,14 @@ Once you submit a pull request, hopefully one of our team members will be able t
 **__MAKE CHANGES BELOW THIS POINT__**
 
 <!-- this is a comment; it will not appear in the outputted online book -->
+
+## Dev's Section
+
+I am interested in this course because:
+
+- I **love** drones!
+    - Specifically, drones with 4 propellers.
+        1. More specifically, drones with cameras.
+- I enjoy making _drone curriculum_
+
+Warning: I do not particularly like troubleshooting issues with drones.
