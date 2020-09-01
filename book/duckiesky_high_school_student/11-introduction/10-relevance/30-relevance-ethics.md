@@ -13,23 +13,32 @@ Specifically for ethical issues that are related to AI, they can be split into d
  
 The ethical implications of what AI is:
  
-1. _Bias and Fairness:_
+_Bias and Fairness:_
 
-AI systems are being used more and more to simulate real life situations and tasks. It is important for AI systems to minimize discrimination and bias. Bias can arise from things such as data adequacy, data bias, and model adequacy (Borealis AI). 
-
+AI systems are being used more and more to simulate real life situations and tasks. In doing so, AI may be capable of amplifying human biases (TowardsDataScience). 
+<!-- https://towardsdatascience.com/the-hitchhikers-guide-to-ai-ethics-part-2-what-ai-is-c047df704a00 --> 
 <!-- https://www.borealisai.com/en/blog/tutorial1-bias-and-fairness-ai/ -->
 
-There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous/AI system that is fair. To create a model that is fair, requires a large understanding of various factors such as user experience, cultural, social, historical, political, legal, and ethic considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
+This may be the cause of biased data. However, another large focus of bias may be from the process of creating a machine learning models. A single math equation is unable to perfectly represent all the data, so a math equation that gets as close as possible is used. In this process, the bits of data that originally had the largest representation would be altered the least by the final math equation. But others, would get ignored by the model, which ends with unfair representation. 
+
+<figure>
+    <figcaption>Simplified Line Modelling Process for Machine Learning Models</figcaption>
+    <img style='width:35em' src="https://docs.duckietown.org/daffy/docs-duckiesky_hign_school_student/out/Simplified_Line_Modelling_Process.png"/>
+</figure>
+
+Now what is "fairness"? 
+
+There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous/AI system that is fair. To create a model that is fair, large understanding of many factors is required such as cultural, social, historical, political, legal, and ethic considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
 
 <!-- https://ai.google/responsibilities/responsible-ai-practices/?category=fairness --> 
 
-These will be explained more in the Algorithmic Bias section of this lesson. 
+This will be explained more in the Algorithmic Bias section of this lesson. 
 
-2. _Accountability and Remediability:_
+_Accountability and Remediability:_
 
 
 
-3. _Transparency, Interpretability, and Explainability:_
+_Transparency, Interpretability, and Explainability:_
 
  
 THe ethical implications related to what AI does:
@@ -155,6 +164,14 @@ According to a study done with autonomous systems by Georgia Institute of Techno
  
 <!--  internet cyber security/how much trust assumption/use for good or bad are possible ; unintended uses when developing -->
  
+Better: Exerise: Try out some of the questions of the Moral Machine here [website](https://ici.radio-canada.ca/info/2019/voitures-autonomes-dilemme-tramway/index-en.html)
+
+- Explain that the Moral Machine focuses on nine different themes
+- Note about the correlation between results of the Moral Machine and culture and economics 
+
+See also: Students may read this [article](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/) to learn more about the experiment and findings.
+
+
 In 2014, MIT has created a series of questions and scenarios that involve autonomous cars and artificial intelligence, which is known as the Moral Machine. The Moral Machine asks people which choices autonomous cars should make when facing different variations of the trolley problem (Technology Review).
  
 The Moral Machine focuses on 9 different themes:
