@@ -7,6 +7,12 @@ The term ethics comes from the word "ethos", which is Greek for "way of living".
  
 When there is a difficult situation, there are multiple possible solutions. Ethics consists of moral principles and values of a person or a group of people. It affects how we choose to live our lives, what we think is wrong and right in morals and situations, and what our responsibilities are.
 
+<figure>
+    <figcaption>Ethics (Image: scu.edu)</figcaption>
+    <img style='width:35em' src="Ethics_picture/Ethics.png"/>
+</figure>
+
+
 By considering ethics during decision making, we can make better decisions that would benefit individuals and society as a whole.
  
 Specifically for ethical issues that are related to AI, they can be split into different categories.
@@ -15,32 +21,39 @@ The ethical implications of what AI is:
  
 _Bias and Fairness:_
 
-AI systems are being used more and more to simulate real life situations and tasks. In doing so, AI may be capable of amplifying human biases (TowardsDataScience). 
+AI systems are being used more and more to simulate real life situations and tasks. In doing so, AI may be capable of amplifying human biases. 
 <!-- https://towardsdatascience.com/the-hitchhikers-guide-to-ai-ethics-part-2-what-ai-is-c047df704a00 --> 
 <!-- https://www.borealisai.com/en/blog/tutorial1-bias-and-fairness-ai/ -->
 
-This may be the cause of biased data. However, another large focus of bias may be from the process of creating a machine learning models. A single math equation is unable to perfectly represent all the data, so a math equation that gets as close as possible is used. In this process, the bits of data that originally had the largest representation would be altered the least by the final math equation. But others, would get ignored by the model, which ends with unfair representation. 
+This may be the cause of biased data. However, another large focus of bias may be from the process of creating a machine learning models. A single math equation is unable to perfectly represent all the data, so a math equation that gets as close as possible is used. In this process, the bits of data that originally had the largest representation would be altered the least by the final math equation. But others, would get ignored by the model, which ends with unfair representation (TowardsDataScience). 
+
 
 <figure>
-    <figcaption>Simplified Line Modelling Process for Machine Learning Models</figcaption>
+    <figcaption>Optimal Line Vs Squiggly for Machine Learning Models (Image: pythonmachinelearning.pro)</figcaption>
     <img style='width:35em' src="Ethics_picture/Ethics_Simplified_Line_Modelling_Process.png"/>
 </figure>
 
-<!--https://docs.duckietown.org/daffy-develop/docs-duckiesky_high_school_student/book/duckiesky_high_school_student/11-introduction/10-relevance/Ethics_picture/Ethics_Simplified_Line_Modelling_Process.png-->
+
 Now what is "fairness"? 
+
+<figure>
+    <figcaption>But what is right and wrong? (Image: Machine Learning, XKCD)</figcaption>
+    <img style='width:35em' src="Ethics_picture/Cartoon_ML.png"/>
+</figure>
 
 There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous/AI system that is fair. To create a model that is fair, large understanding of many factors is required such as cultural, social, historical, political, legal, and ethic considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
 
-<!-- https://ai.google/responsibilities/responsible-ai-practices/?category=fairness --> 
-
-This will be explained more in the Algorithmic Bias section of this lesson. 
+<!-- https://ai.google/responsibilities/responsible-ai-practices/?category=fairness -->  
 
 _Accountability and Remediability:_
 
+We know that there is always the chance that algorithms can create biased outcomes. Therefore, systems must be held accountable when this does occur. This can be done multiple ways, whether through getting humans to investigate the systems, assess impacts on users, or established policies. 
 
+And what does happen when there is damage due to these systems and their biased outcomes? It would ideally be great if there are established policies or regulations that deal with this, but as of now, there are none. Currently, efforts have been taken by journalism and research teams to identify systems that are biased and push them to take action to resolve them (TowardsDataScience).
 
 _Transparency, Interpretability, and Explainability:_
 
+ 
  
 THe ethical implications related to what AI does:
  
