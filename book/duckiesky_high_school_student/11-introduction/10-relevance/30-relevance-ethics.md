@@ -9,7 +9,7 @@ When there is a difficult situation, there are multiple possible solutions. Ethi
 
 <figure>
     <figcaption>Ethics (Image: scu.edu)</figcaption>
-    <img style='width:35em' src="Ethics_picture/Ethics.png"/>
+    <img style='width:25em' src="Ethics_picture/Ethics.png"/>
 </figure>
 
 
@@ -17,7 +17,7 @@ By considering ethics during decision making, we can make better decisions that 
  
 Specifically for ethical issues that are related to AI, they can be split into different categories.
  
-The ethical implications of what AI is:
+**The Ethical Implications of What AI Is**
  
 _Bias and Fairness:_
 
@@ -38,7 +38,7 @@ Now what is "fairness"?
 
 <figure>
     <figcaption>But what is right and wrong? (Image: Machine Learning, XKCD)</figcaption>
-    <img style='width:35em' src="Ethics_picture/Cartoon_ML.png"/>
+    <img style='width:25em' src="Ethics_picture/Cartoon_ML.png"/>
 </figure>
 
 There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous/AI system that is fair. To create a model that is fair, large understanding of many factors is required such as cultural, social, historical, political, legal, and ethic considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
@@ -53,9 +53,13 @@ And what does happen when there is damage due to these systems and their biased 
 
 _Transparency, Interpretability, and Explainability:_
 
- 
- 
-THe ethical implications related to what AI does:
+Many ethical issues arise because of lack of transparency, interpretability, and explainability. 
+
+Companies do not want to share their ideas, algorithms, and their models, which makes them reliant on data that is close sourced. This is due to multiple reasons: eliminate competition with other companies in related industries, and reduce hacking or malicious usage of their systems. However, this also prevents others from being able to identify possible sources of bias or inaccuracy in their systems. 
+
+Also, machine learning algortihms and models require very complex math often. This also leads to much confusion when trying to ____
+
+**The ethical implications related to what AI does**
  
 1. _Safety:_ 
 
