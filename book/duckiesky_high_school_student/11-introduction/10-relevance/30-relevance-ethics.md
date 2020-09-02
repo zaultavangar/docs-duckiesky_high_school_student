@@ -198,56 +198,62 @@ Algorithmic bias can result from multiple sources.
 Amazon created Rekognition, which is a facial recognition software. ACLU tested the software by matching Congress members, and the result was shocking: 28 members were matched with criminals. In addition, it was found that 40% of the inaccurate image matches were of people of color (ACLU NorCal). 
  
 This is risky to be actually implemented for law enforcememt purposes, as it can make a police officer more biased before an initial encounter, or it can increase the chances of a person being questioned or searched, or can increase bias towards people of color (ACLU NorCal).
+
+<figure>
+    <figcaption> Congress Matched to Criminals Bias Rates (Image: American Civil Liberties Union)</figcaption>
+    <img style='width:25em' src="Ethics_picture/Rekognition_bias.png"/>
+</figure>
  
 <!--https://www.aclunc.org/blog/amazon-s-face-recognition-falsely-matched-28-members-congress-mugshots -->
  
-#### An example: Autonomous systems and identification by skin tone
+#### Example: Autonomous Systems' Identification by Skin Tone
  
 An autonomous soap dispenser by Technical Concepts was found to have trouble dispensing people for darker skin color. This is because the dispenser relied on IR sensor which relies on how much light is reflected back. Darker skin tones absorb more light than people with lighter skin tones (Reporter). This resulted in the soap dispenser not being able to work for people with darker skin. This design flaw was believed to be because of a lack of diversity in the workplace at Technical Concepts, who did not think to test their products on people with darker skin tones (Reporter).
  
 <!-- https://reporter.rit.edu/tech/bigotry-encoded-racial-bias-technology -->
  
 According to a study done with autonomous systems by Georgia Institute of Technology, AI systems were more consistently accurately identifying people with lighter skin tones than darker. Their results show that detection of people with darker skins were less accurate by 5%. This can result in racial bias by the algorithm, and in the case of autonomous cars, people with darker skin would be more likely to be harmed or involved in an accident than those with lighter skin.
- 
-#### Another example: MIT's Moral Machine
- 
-<!-- done as a game, data set is not entirely reliable -->
- 
-<!--  internet cyber security/how much trust assumption/use for good or bad are possible ; unintended uses when developing -->
- 
-Better: Exerise: Try out some of the questions of the Moral Machine here [website](https://ici.radio-canada.ca/info/2019/voitures-autonomes-dilemme-tramway/index-en.html)
 
-- Explain that the Moral Machine focuses on nine different themes
-- Note about the correlation between results of the Moral Machine and culture and economics 
+Pulling an example from earlier: Rekognition also displays the lack of accuracy with skin tone. 
 
-See also: Students may read this [article](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/) to learn more about the experiment and findings.
-
+<figure>
+    <figcaption> Rekognition's Accuracy Rates with Identification by Skin Tone (Image: Medium)</figcaption>
+    <img style='width:25em' src="Ethics_picture/skin_tone_bias_2.png"/>
+</figure>
+ 
+#### Example: MIT's Moral Machine
+ 
+Better: Exercise: Try out some of the questions of the Moral Machine here [website](https://ici.radio-canada.ca/info/2019/voitures-autonomes-dilemme-tramway/index-en.html)
 
 In 2014, MIT has created a series of questions and scenarios that involve autonomous cars and artificial intelligence, which is known as the Moral Machine. The Moral Machine asks people which choices autonomous cars should make when facing different variations of the trolley problem (Technology Review).
+
+<figure>
+    <figcaption> The Trolley Problem (Image: Medium)</figcaption>
+    <img style='width:25em' src="Ethics_picture/trolley.png"/>
+</figure>
  
 The Moral Machine focuses on 9 different themes:
  
-1) Humans or pets/animals?
+1. Humans or pets/animals?
  
-2) Passengers or pedestrians?
+2. Passengers or pedestrians?
  
-3) More or fewer lives?
+3. More or fewer lives?
  
-4) Women or men?
+4. Women or men?
  
-5) Young or old?
+5. Young or old?
  
-6) Healthy or those with health conditions?
+6. Healthy or those with health conditions?
  
-7) People of those of higher or lower status?
+7. People of those of higher or lower status?
  
-8) Action or no action?
+8. Action or no action?
  
 The results of the Moral Machine was closely related with culture and economics (Technology Review).
  
-Students may read this [article](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/) to learn more about the experiment and findings.
+Better: Exercise: Read [article](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/) to learn more about the experiment and findings.
  
-While this is presented in a very "game" like way, it is very interesting to take into consideration moral concepts that we think about in extreme situations.
  
 <!-- https://www.media.mit.edu/projects/moral-machine/overview/
  
@@ -257,15 +263,35 @@ https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to
  
 -->
  
-#### Security, on time, backups, as these systems become relied upon
+#### Security and Systems Utilized in Society:
  
 There are many systems in society that utilize autonomous systems that are important to society.
 There has been ongoing debate whether these systems should be close or open sourced.
  
 Open source code means that the source code can be accessed by the public. Closed source code means that the source code cannot be accessed by others, or it remains classified, only seen by those who are authorized to. While closed source codes may safer from prying eyes or hackers, it also prevents closer scrutiny for potential biases or problems in the code by the public.
  
+#### Example: Use of Biometric Data in Society
+
+There are multiple forms of authentication and verification such as passwords, physical hardware keys, email, and biometric data.
+
+There are many systems that use biometric data such as FaceID, fingerprinting, tracking down suspects, gaining access to restriction buildings, and access to important services. 
+
+There are many advantages of biometric data in society.
+
+1. Many of the other verification methods have significant flaws or inconviences: 
+
+    Passwords can be guessed by hashing or brute force methods, only often requiring computation power. Passwords that are more complicated for computers to guess are often character sequences that are extremely difficult to remember, making it very inconvenient to use. Passwords are also very easy to change, especially for hackers who've already got past authentication. 
+
+    Emails are relatively easy to hack and make it simpler to hack other personal information together, often done with the help of phishing emails that lead you to other malicious sites in disguise to ask you to authenticate into other services that you use. 
+
+    Physical hardware keys are inconvient due to the requirement of carrying them around and their ability to be easily lost or stolen. 
+
+2. Biometric data is relatively difficult to fake: 
+
+    While biometric data is not completely fake proof, it does require a different significant _____
+
  
-#### An example: Autonomous Systems Used in Social Credit System Development in China
+#### Example: Autonomous Systems Used in Social Credit System Development in China
  
 The Chinese government began experimenting with social credit scores in 2015, when it allowed private companies to assign credit scores to people. One of the companies, Sesame Credit, does this by analyzing many variables over five sets of data, most of which is actually from Alibaba’s Alipay, which is used by over a billion people to make purchases, and contains much information. Sesame Credit analyzes both financial and social behaviors and assigns a score between 350 and 950 (Time). People who accomplish good deeds are awarded points and can receive rewards. Those who do bad deeds, such as smoking or spending too much time on video games, are deducted points. Those with an extremely low social credit score are placed on the “List of Untrustworthy Persons” and will be prohibited from certain activities such as the ability to use public transportation or to make large purchases.
  
