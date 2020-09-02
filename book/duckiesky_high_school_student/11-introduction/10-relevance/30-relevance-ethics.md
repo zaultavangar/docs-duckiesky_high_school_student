@@ -23,9 +23,10 @@ This may be the cause of biased data. However, another large focus of bias may b
 
 <figure>
     <figcaption>Simplified Line Modelling Process for Machine Learning Models</figcaption>
-    <img style='width:35em' src="https://docs.duckietown.org/daffy-develop/docs-duckiesky_high_school_student/book/duckiesky_high_school_student/11-introduction/10-relevance/Ethics_picture/Ethics_Simplified_Line_Modelling_Process.png"/>
+    <img style='width:35em' src="Ethics_picture/Ethics_Simplified_Line_Modelling_Process.png"/>
 </figure>
 
+<!--https://docs.duckietown.org/daffy-develop/docs-duckiesky_high_school_student/book/duckiesky_high_school_student/11-introduction/10-relevance/Ethics_picture/Ethics_Simplified_Line_Modelling_Process.png-->
 Now what is "fairness"? 
 
 There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous/AI system that is fair. To create a model that is fair, large understanding of many factors is required such as cultural, social, historical, political, legal, and ethic considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
