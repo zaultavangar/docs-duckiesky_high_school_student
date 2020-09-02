@@ -23,7 +23,7 @@ This may be the cause of biased data. However, another large focus of bias may b
 
 <figure>
     <figcaption>Simplified Line Modelling Process for Machine Learning Models</figcaption>
-    <img style='width:35em' src="https://docs.duckietown.org/daffy/docs-duckiesky_hign_school_student/dockuments-dist/duckiesky_high_school_student/out/assets/Ethics_Simplified_Line_Modelling_Process.png"/>
+    <img style='width:35em' src="https://docs.duckietown.org/daffy-develop/docs-duckiesky_hign_school_student/book/duckiesky_high_school_student/11-introduction/Ethics_picture/Ethics_Simplified_Line_Modelling_Process.png"/>
 </figure>
 
 Now what is "fairness"? 
