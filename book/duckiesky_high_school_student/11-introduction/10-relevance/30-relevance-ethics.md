@@ -65,7 +65,7 @@ _Safety:_
 
 <figure>
     <figcaption>Examples of harms of AI systems and algorithmic decision making (Image: Future of Privacy Forum Report)</figcaption>
-    <img style='width:25em' src="Ethics_picture/Harms_AI.jpeg"/>
+    <img style='width:25em' src="Ethics_picture/Harms_AI.png"/>
 </figure>
 
 We want AI systems to be as safe as possible through decreasing the risk of bias, the risk of bodily harm, or display any behavior that can harm others. 
@@ -89,7 +89,7 @@ _Privacy, Control, and Surveillance:_
 
 <figure>
     <figcaption>Technology can be a break down the walls of privacy (Image: Slane Cartoons Ltd)</figcaption>
-    <img style='width:25em' src="Ethics_picture/privacy_cartoon.jpg"/>
+    <img style='width:25em' src="Ethics_picture/privacy_cartoon.png"/>
 </figure>
 
 AI systems can be quite easily converted for the purpose of surveillance. While it can be used for public good, naturally we would like to know exactly where and when our data will be used. But the catch here with AI systems is that others may be using our private data without our permission. AI systems learn from data provided during training, and they make predictions based on data input that they receive. The data may regard extremely sensative or important data. There must be measures put in place so that the data can be used safely and efficiently by the system, while preventing the visibility of it from prying eyes. 
@@ -114,18 +114,27 @@ Also, the way that AI systems learn and their actions may become more unpredicta
 #### Example: Husky Vs Wolf In Image Identification
  
 University of Washington wanted to create an image classifier that can identify wolves from huskies correctly. The AI systems were fed images to learn from. However, some photos of huskies are incorrectly categorized by the system as wolves. It turns out that the system was learning from the images that wolves are often found in images that had snowy backgrounds. So the system turned out to be simplying identifying if images had snow in the background (Medium).
- 
+
+<figure>
+    <figcaption> Wolf vs husky algorithm detection experiment results (Image: Hacker Noon)</figcaption>
+    <img style='width:25em' src="Ethics_picture/husky_wolf_1.png"/>
+</figure>
+
+
 When there was a wolf in an image with no snow in the background, it would be categorized as a husky. If there was a husky with a snowy background, it would be categorized as a wolf (Ribeiro et al.).
+
+<figure>
+    <figcaption> Input data of the wolf vs husky algortihm experiment (Image: Becoming Human: Artificial Intelligence Magazine)</figcaption>
+    <img style='width:25em' src="Ethics_picture/husky_wolf_2.png"/>
+</figure>
  
 This inaccuracy of the system is because of a data set that was "unfair" or did not have a sufficient variety of scenarios (Besse et al.).
   
-#### Example: Artificial Neural Network to predict risk of pneumonia patients
+#### Example: Artificial Neural Network Algorithm For Pneumonia Patient Risk
  
 University of Pittsburgh created a study in the 1990s to use a system to predict which pneumonia patients were low risk and which were at high risk. The system initially caused a large amount of concern to doctors because they found out that pneumonia patients with asthma was classified as low risk by the system. A rule system was implemented into the system to help solve this issue. After examining data closely, researchers founds that patients who had both pneumonia and asthma had a higher recovery rate. This is because when those patients were brought to the hospital, they were always considered to be at high risk, and immediately received proper treatment. However, the autonomous system simply believed that the presence of asthma results in being low risk, which is incorrect (Medium).
  
- 
 #### Example: The Boeing 737 MAX.
- 
  
 There have been a number of accidents with the Boeing 737 MAX aircraft, which has resulted in the grounding of Boeing 737 MAX worldwide.
  
@@ -133,10 +142,12 @@ There have been a number of accidents with the Boeing 737 MAX aircraft, which ha
  
 2. Ethiopian Airlines Flight 302: international flight that took place on March 10, 2019. It crashed shortly after takeoff, and resulted in deaths of all 157 people on the flight. 
  
- 
-Teachers explain why MCAS was added and how the MCAS and a faulty sensor contributed to the grounding of the Boeing 737 MAX.
- 
 There were several reasons that contributed to these fatal accidents:
+
+<figure>
+    <figcaption> MCAS flaws with the aircraft (Image: BBC)</figcaption>
+    <img style='width:25em' src="Ethics_picture/MCAS.png"/>
+</figure>
  
 The Boeing 737 Max 8 is different from the earlier Boeing 737 series. To allow for expanded seating capacity and better engines, Boeing 737 Max 8 had major design changes. The engines were moved forward and were raised. However, this made it more likely for the nose to pitch up while flying, so Maneuvering Characteristics Augmentation System or MCAS was developed to help correct the nose pitching problem by altering the control surface at the tail. The algorithm automatically detects whenever the nose pitches too high and corrects it (Seattle Times).
 
@@ -167,8 +178,10 @@ Because of the low chances that were predicted, Boeing decided to not include th
 <!--https://www.seattletimes.com/seattle-news/times-watchdog/the-inside-story-of-mcas-how-boeings-737-max-system-gained-power-and-lost-safeguards/ -->
  
 ##### Algorithmic Bias
- 
-Teachers teach that algorithmic bias can result from multiple sources.
+
+Better: Exercise: Can try this [game](https://www.survivalofthebestfit.com) to learn more about bias in machine learning and algorithms.
+
+Algorithmic bias can result from multiple sources.
  
 1. The algorithm may be programmed by someone who is biased thus inheriting their biased views.
  
@@ -180,10 +193,7 @@ Teachers teach that algorithmic bias can result from multiple sources.
 
 5. Developers when testing their AI systems, do not test it with a large variety of data or do not take into consideration certain scenarios (which may come from a lack of diversity in the workplace).
  
- 
 #### Example: Amazon: Congress Matched to Criminals
- 
-Teachers teach about another example of algorithmic inaccuracy in AI systems, this one is more applicable to humans.
  
 Amazon created Rekognition, which is a facial recognition software. ACLU tested the software by matching Congress members, and the result was shocking: 28 members were matched with criminals. In addition, it was found that 40% of the inaccurate image matches were of people of color (ACLU NorCal). 
  
