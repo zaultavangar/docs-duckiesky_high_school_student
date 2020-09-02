@@ -41,7 +41,7 @@ Now what is "fairness"?
     <img style='width:25em' src="Ethics_picture/Cartoon_ML.png"/>
 </figure>
 
-There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous/AI system that is fair. To create a model that is fair, large understanding of many factors is required such as cultural, social, historical, political, legal, and ethic considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
+There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous system that is fair. To create a model that is fair, large understanding of many factors is required such as cultural, social, historical, political, legal, and ethic considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
 
 <!-- https://ai.google/responsibilities/responsible-ai-practices/?category=fairness -->  
 
@@ -57,24 +57,45 @@ Many ethical issues arise because of lack of transparency, interpretability, and
 
 Companies do not want to share their ideas, algorithms, and their models, which makes them reliant on data that is close sourced. This is due to multiple reasons: eliminate competition with other companies in related industries, and reduce hacking or malicious usage of their systems. However, this also prevents others from being able to identify possible sources of bias or inaccuracy in their systems. 
 
-Also, machine learning algortihms and models require very complex math often. This also leads to much confusion when trying to ____
+Also, machine learning algorithms and models often require very complex math and multiple layers of it. This is because we want the math to be as close as possible to data patterns that are seen. Because of how complex it is, it is difficult for others to understand or explain on a detailed level how everything works (TowardsDataScience). 
 
 **The ethical implications related to what AI does**
  
-1. _Safety:_ 
+_Safety:_ 
 
-2. _Human-AI interaction:_ 
+<figure>
+    <figcaption>Examples of harms of AI systems and algorithmic decision making (Image: Future of Privacy Forum Report)</figcaption>
+    <img style='width:25em' src="Ethics_picture/Harms_AI.jpeg"/>
+</figure>
 
-3. _Cyber-security and Malicious Use:_ 
+We want AI systems to be as safe as possible through decreasing the risk of bias, the risk of bodily harm, or display any behavior that can harm others. 
 
-AI systems 
+AI systems are responsible for replicating functions of decision making skills of human minds. This involved having the ability to make decisions based on our ethics, intentions, and logical consequences that change depending on the situation and scenario. 
 
-4. _Privacy, Control, and Agency:_
+_Human-AI interaction:_ 
 
-AI systems learn from data provided during training, and they make predictions based on data input that they receive. The data may regard extremely sensative or important data, such as medical data. There must be measures put in place so that the data utilized is transparent _____. 
+<figure>
+    <figcaption> Automatic robots could be the future of nursing? (Image: ActiveAdvice)</figcaption>
+    <img style='width:25em' src="Ethics_picture/Robots_Humans.png"/>
+</figure>
+
+While AI systems are made to replicate human minds or be able to do human tasks, there are many things that differentiate these systems from humans. However, as AI systems improve over time, these differences may become smaller and smaller, and can  cause harm or provide benefits to people who use them.  
+
+_Cyber-security and Malicious Use:_ 
+
+AI is becoming better and better at detecting, preventing hacks, and is now being used in many other systems as a cybersecurity measure. However it is still at a large risk of being hacked by others or used by others for malicious intent. This is due to the nature of AI, how it relies on input data and is constantly online for others to use 24/7, and many other reasons. Input data can be altered, others can constantly hack and alter key components of the algorithms through web packets or through the internet. 
+
+_Privacy, Control, and Surveillance:_
+
+<figure>
+    <figcaption>Technology can be a break down the walls of privacy (Image: Slane Cartoons Ltd)</figcaption>
+    <img style='width:25em' src="Ethics_picture/privacy_cartoon.jpg"/>
+</figure>
+
+AI systems can be quite easily converted for the purpose of surveillance. While it can be used for public good, naturally we would like to know exactly where and when our data will be used. But the catch here with AI systems is that others may be using our private data without our permission. AI systems learn from data provided during training, and they make predictions based on data input that they receive. The data may regard extremely sensative or important data. There must be measures put in place so that the data can be used safely and efficiently by the system, while preventing the visibility of it from prying eyes. 
 
  
-##### Correctness and Uncertainty of Algorithms and/or Autonomous Systems
+##### Correctness and Uncertainty of Algorithms
  
 By incorporating artificial intelligence (AI) into systems, they gain the potential to accomplish tasks that usually rely on the intelligence of humans. Systems can become autonomous, and do not have to rely on human control and decisions. An example of an autonomous system that is currently developing is autonomous cars.
  
@@ -108,9 +129,9 @@ University of Pittsburgh created a study in the 1990s to use a system to predict
  
 There have been a number of accidents with the Boeing 737 MAX aircraft, which has resulted in the grounding of Boeing 737 MAX worldwide.
  
-1) Lion Air Flight 610: domestic flight that took place on October 29, 2018. It crashed into the Java Sea shortly after takeoff. Resulted in deaths of all 189 passengers and crew.
+1. Lion Air Flight 610: domestic flight that took place on October 29, 2018. It crashed into the Java Sea shortly after takeoff. Resulted in deaths of all 189 passengers and crew.
  
-2) Ethiopian Airlines Flight 302: international flight that took place on March 10, 2019. It crashed shortly after takeoff, and resulted in deaths of all 157 people on the flight. 
+2. Ethiopian Airlines Flight 302: international flight that took place on March 10, 2019. It crashed shortly after takeoff, and resulted in deaths of all 157 people on the flight. 
  
  
 Teachers explain why MCAS was added and how the MCAS and a faulty sensor contributed to the grounding of the Boeing 737 MAX.
@@ -149,13 +170,15 @@ Because of the low chances that were predicted, Boeing decided to not include th
  
 Teachers teach that algorithmic bias can result from multiple sources.
  
-1) The algorithm may be programmed by someone who is biased thus inheriting their biased views.
+1. The algorithm may be programmed by someone who is biased thus inheriting their biased views.
  
-2) Since the systems often rely on pattern matching algorithms, an algorithm may act in a biased way because data that comes from biased sources.
+2. Since the systems often rely on pattern matching algorithms, an algorithm may act in a biased way because data that comes from biased sources.
  
-3) The dataset given to the system to learn from could have biases that the developer is unaware of. Regarding the point made before regarding algorithmic uncertainty, from the data it receives, robots may unintentionally develop a biased and stereotypical way of thinking while trying to establish which factors it should prioritise during decision making.
+3. The dataset given to the system to learn from could have biases that the developer is unaware of. Regarding the point made before regarding algorithmic uncertainty, from the data it receives, robots may unintentionally develop a biased and stereotypical way of thinking while trying to establish which factors it should prioritise during decision making.
  
-4) Developers when testing their AI systems, do not test it with a large variety of data or do not take into consideration certain scenarios (which may come from a lack of diversity in the workplace).
+4. Limitations of the mathematical model for machine learning of the data set. 
+
+5. Developers when testing their AI systems, do not test it with a large variety of data or do not take into consideration certain scenarios (which may come from a lack of diversity in the workplace).
  
  
 #### Example: Amazon: Congress Matched to Criminals
