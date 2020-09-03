@@ -98,25 +98,55 @@ Make sure you have equipment:
  
 #### Pre-flight Safety Checklist
  
-Before you fly, you should make sure that:
+Before you fly, you should make sure:
  
-1. Am I connected to the correct drone?
+1. Do I have my safety goggles on?
 
-2. Do I have my safety goggles on?
+2. Do I have a safe space to fly? Is there the possibility of the drone flying away or collisions?
 
-3. Do I have space to fly? 
+    Make sure the surface you are flying over is not reflective, and is not uniform in details. Preferably a highly textured planar surface (ie: poster board with a bunch of scribbles and shapes)
 
-4. Is there the possibility of the drone flying away or collisions?
+    If outdoors: make sure that you are flying in a safe space that adheres to FAA rules, double check restriction and regulations of your space. Watch out for trees, flying duckies, people, etc. 
 
-5. Make sure the propellers, motors, and flight controller are not loose. 
+    If indoors: make sure that you have an adequate clear area where you can fly a drone around and no obstacles that the drone/you will crash into. 
 
-6. Make sure there are no dangling wires or wires that are in the way of the propellers. 
+3. Make sure the propellers, motors, and flight controller are correctly placed and not loose. 
 
-7. Inspect the battery for any problems and battery level when plugged in
+    With the battery disconnected: make sure that the numbers of the propellers and the motors correspond. Also, the arrows on the propellers should be visible from the top of the drone, and the arrows should be going in the same direction as the arrows on the motors.
 
-8. Check the kill switch and ensure that it works. 
+    The propellers should not be able to spin freely around the motor shaft. Make sure the propellers are tightened down so that they cannot spin freely and there is no gap between the propeller, the motor, and the motor nut.
 
-9. Are the propellers armed?
+    Make sure that the flight controller is not loose to ensure that it won’t wiggle around or fall out of position during flight.
+
+4. Make sure there are no dangling wires or wires that are in the way of the propellers. 
+
+    With the battery disconnected, spin the props with your finger and make sure there are no wires in the way.
+
+5. Make sure that the flight controller USB is connected to the Pi. 
+
+6. Inspect the battery for any problems. Check battery level when plugged in.
+    
+    Make sure that the battery is not swelling, puffing, or smoking (when and when not plugged in or charging). 
+
+    When the drone is connected, you can check the battery level on the web interface. The battery level should generally be above 10V, if it is lower make sure it is charged.  
+
+7. With drone connected, make sure that you are connected to the correct drone.
+
+    You can check this by running the blinkpowerled.sh script in pidrone_pkg
+
+8. With drone connected, make sure there are no node errors. 
+    
+    Go through each of the screens using ` n, where n is a number 0-5, and make sure there are no errors printed out. It is normal that there may be an error at the top of the screen that says something about not connecting to ROS master, but that is OK because it takes a bit for ROS to startup. Make sure there is other text underneath this error, and that text does not also include an error message.
+
+9. With drone connected, make sure that the IR sensor is working. 
+    
+    While looking at the web interface, move the drone up and down and make sure you see changes in the IR graph on the web interface
+
+10. With drone connected, check the kill switch and ensure that it works. 
+
+    Press the space bar to arm the drone, and you will see the motors start turning. 
+    Press the space bar again to kill/disarm the drone, and you will see the motors stop. 
+
 
  
 #### First Flight:
@@ -124,12 +154,19 @@ Before you fly, you should make sure that:
 The first time you fly the drone or start the drone, there may be some situations you may experience/be aware of:
  
 - Drone flips: incorrect propellor orientations
+
 - Collisions: no side/back sensors
-- Battery mishaps: replace batteries
+
+- Battery mishaps: replace batteries or charge them
+
 - Excessive heat production of the drone: shorts in soldering
-- IR Sensor not working: check soldering and boltages
+
+- IR Sensor not working: check soldering and voltages
+
 - Motors not responding: check calibration and soldering, run calibration script in terminal
+
 - Haywire flight: check if flight controller is steady, make sure to run calibration script in terminal
+
 
  
 **Useful Resources and References**
