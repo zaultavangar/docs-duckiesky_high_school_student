@@ -1,6 +1,6 @@
 # Safety {#introduction-operation-safety status=ready}
  
-#### Case Study: The Midair Collision in 2009
+### Case Study: The Midair Collision in 2009
  
 There was a collision between a private airplane and a sightseeing helicopter over Manhattan. The result was 9 deaths.
  
@@ -32,7 +32,7 @@ https://www.nytimes.com/2009/08/10/nyregion/10collide.html
 -->
  
  
-#### FAA rules
+### FAA rules
  
 The Federal Aviation Administration (FAA) is a US governmental boday that is responsible for regulating aviation and unmanned aircraft. It regulates flights outdoors, airports, air traffic management, certification of people and aircraft, and protection of US assets. FAA rules do not apply to operations that take place indoors. 
  
@@ -60,7 +60,7 @@ Here are some of the important safety guidelines by the [FAA](https://www.faa.go
 
 9. Never fly under the influence of drugs or alcohol
  
-#### Where to fly:
+### Where to fly:
  
 You may fly your drone indoors if you have enough space, as FAA rules do not apply to operations that take place indoors.
  
@@ -68,7 +68,7 @@ Before flying outside, please check the [FAA's website for the Chart  User's Gui
  
 You may also use the [B4UFLY app](https://www.faa.gov/uas/recreational_fliers/where_can_i_fly/b4ufly/), which is created by the FAA to help recreational flyers to figure out where they can safely fly and/or any restrictions in a location.
  
-#### Possible Sources for Danger:
+### Possible Sources for Danger:
  
 There are several possible sources of danger that can result from the drone:
  
@@ -80,10 +80,10 @@ There are several possible sources of danger that can result from the drone:
 
 4. electric shorts and fires
  
-#### Safe Environment
+### Safe Environment
  
-The Bystander Effect:
- 
+_The Bystander Effect:_
+
 The more people that are present, the less likely someone will help a victim during a situation.
  
 Be wary of this, make sure that if there is a dangerous situation, be cautious and aware, and take action to help those who need it.
@@ -91,6 +91,7 @@ Be wary of this, make sure that if there is a dangerous situation, be cautious a
 Make sure that you have a safe environment to fly indoors.
  
 Make sure you have equipment:
+
 1. Safety glasses
 
 2. Gloves
@@ -101,7 +102,7 @@ Make sure you have equipment:
 
 5. Net (not required)
  
-#### Pre-flight Safety Checklist
+### Pre-flight Safety Checklist
  
 Before you fly, you should make sure:
  
@@ -154,7 +155,7 @@ Before you fly, you should make sure:
 
 
  
-#### First Flight:
+### First Flight:
  
 The first time you fly the drone or start the drone, there may be some situations you may experience/be aware of:
  
@@ -171,24 +172,6 @@ The first time you fly the drone or start the drone, there may be some situation
 - Motors not responding: check calibration and soldering, run calibration script in terminal
 
 - Haywire flight: check if flight controller is steady, make sure to run calibration script in terminal
-
-#### Terms
-
-**NTSB:** National Transportation Safety Board. US investigative body for vehicle/transportation accidents.
-
-**FAA:** Federal Aviation Administration which is responsible for regulation of civil aviation: including airports, air traffic management, certification of people, certification of aircraft, and protection of US assets.
-
-**See and Avoid Concept: **the concept of taking action to avoid what you see. If you are able to see a ball coming at you, you can take action: catch, dodge, etc. In the Midair Collision, time was too short to be able to take any action.
-
-**UAS:** unmanned aerial systems: systems/vehicles with no human pilot, like drones.
-
-**Kill Switch:** spacebar on the keyboard which immediately disarms the drone after they have begun flying it. If something goes wrong during flight, press the spacebar.
-
-**OSHA:** Occupational Safety and Health Adminstration.
-
-**Bystander Effect:** The more people that are present, the less likely someone will help a victim during a situation. Be wary of this, make sure that if there is a dangerous situation, be cautious and aware, and take action to help those who need it.
-
-**B4UFLY App:** app created by the FAA, helps recreational flyers to figure out where they can safely fly and if there are any restrictions in a location.
 
  
 **Useful Resources and References**

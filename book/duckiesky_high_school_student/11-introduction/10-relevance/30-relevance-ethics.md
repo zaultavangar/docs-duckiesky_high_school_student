@@ -25,7 +25,7 @@ AI systems are being used more and more to simulate real life situations and tas
 <!-- https://towardsdatascience.com/the-hitchhikers-guide-to-ai-ethics-part-2-what-ai-is-c047df704a00 --> 
 <!-- https://www.borealisai.com/en/blog/tutorial1-bias-and-fairness-ai/ -->
 
-This may be the cause of biased data. However, another large focus of bias may be from the process of creating a machine learning models. A single math equation is unable to perfectly represent all the data, so a math equation that gets as close as possible is used. In this process, the bits of data that originally had the largest representation would be altered the least by the final math equation. But others, would get ignored by the model, which ends with unfair representation (TowardsDataScience). 
+This may be the cause of biased data. However, another large focus of bias may be from the process of creating machine learning models. A single math equation is unable to perfectly represent all the data, so a math equation that gets as close as possible is used. In this process, the bits of data that originally had the largest representation would be altered the least by the final math equation. But others would get ignored by the model, which results in unfair representation (TowardsDataScience). 
 
 
 <figure>
@@ -41,7 +41,7 @@ Now what is "fairness"?
     <img style='width:25em' src="Ethics_picture/Cartoon_ML.png"/>
 </figure>
 
-There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous system that is fair. To create a model that is fair, large understanding of many factors is required such as cultural, social, historical, political, legal, and ethic considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
+There is not a specific definition for the term "fairness". It is a challenge that we are always striving towards: trying to create an autonomous system that is fair. To create a model that is fair, large understanding of many factors is required such as cultural, social, historical, political, legal, and ethical considerations. Many of these require tradeoffs to be made. Should every group of people be given the same amount of benefits or should each group's given benefit be proportional to their situations? For different situations, it is always a difficult question and many have debates about what exactly is fair in a situation and who should be responsible for calling the final decision (Google). 
 
 <!-- https://ai.google/responsibilities/responsible-ai-practices/?category=fairness -->  
 
@@ -49,7 +49,7 @@ _Accountability and Remediability:_
 
 We know that there is always the chance that algorithms can create biased outcomes. Therefore, systems must be held accountable when this does occur. This can be done multiple ways, whether through getting humans to investigate the systems, assess impacts on users, or established policies. 
 
-And what does happen when there is damage due to these systems and their biased outcomes? It would ideally be great if there are established policies or regulations that deal with this, but as of now, there are none. Currently, efforts have been taken by journalism and research teams to identify systems that are biased and push them to take action to resolve them (TowardsDataScience).
+And what happens when there is damage due to these systems and their biased outcomes? It would ideally be great if there are established policies or regulations that deal with this, but as of now, there are none. Currently, efforts have been taken by journalism and research teams to identify systems that are biased and push them to take action to resolve them (TowardsDataScience).
 
 _Transparency, Interpretability, and Explainability:_
 
@@ -65,7 +65,7 @@ _Safety:_
 
 <figure>
     <figcaption>Examples of harms of AI systems and algorithmic decision making (Image: Future of Privacy Forum Report)</figcaption>
-    <img style='width:25em' src="Ethics_picture/Harms_AI.png"/>
+    <img style='width:35em' src="Ethics_picture/Harms_AI.png"/>
 </figure>
 
 We want AI systems to be as safe as possible through decreasing the risk of bias, the risk of bodily harm, or display any behavior that can harm others. 
@@ -92,7 +92,7 @@ _Privacy, Control, and Surveillance:_
     <img style='width:25em' src="Ethics_picture/privacy_cartoon.png"/>
 </figure>
 
-AI systems can be quite easily converted for the purpose of surveillance. While it can be used for public good, naturally we would like to know exactly where and when our data will be used. But the catch here with AI systems is that others may be using our private data without our permission. AI systems learn from data provided during training, and they make predictions based on data input that they receive. The data may regard extremely sensative or important data. There must be measures put in place so that the data can be used safely and efficiently by the system, while preventing the visibility of it from prying eyes. 
+AI systems can be quite easily converted for the purpose of surveillance. While it can be used for public good, naturally we would like to know exactly where and when our data will be used. But the catch here with AI systems is that others may be using our private data without our permission. AI systems learn from data provided during training, and they make predictions based on data input that they receive. The data may regard extremely sensitive or important data. There must be measures put in place so that the data can be used safely and efficiently by the system, while preventing the visibility of it from prying eyes. 
 
  
 ### Correctness and Uncertainty of Algorithms
@@ -113,7 +113,7 @@ Also, the way that AI systems learn and their actions may become more unpredicta
  
 **Example: Husky Vs Wolf In Image Identification**
  
-University of Washington wanted to create an image classifier that can identify wolves from huskies correctly. The AI systems were fed images to learn from. However, some photos of huskies are incorrectly categorized by the system as wolves. It turns out that the system was learning from the images that wolves are often found in images that had snowy backgrounds. So the system turned out to be simplying identifying if images had snow in the background (Medium).
+University of Washington wanted to create an image classifier that can identify wolves from huskies correctly. The AI systems were fed images to learn from. However, some photos of huskies are incorrectly categorized by the system as wolves. It turns out that the system was learning from the images that wolves are often found in images that had snowy backgrounds. So the system turned out to be simplifying identifying if images had snow in the background (Medium).
 
 <figure>
     <figcaption> Wolf vs husky algorithm detection experiment results (Image: Hacker Noon)</figcaption>
@@ -124,7 +124,7 @@ University of Washington wanted to create an image classifier that can identify 
 When there was a wolf in an image with no snow in the background, it would be categorized as a husky. If there was a husky with a snowy background, it would be categorized as a wolf (Ribeiro et al.).
 
 <figure>
-    <figcaption> Input data of the wolf vs husky algortihm experiment (Image: Becoming Human: Artificial Intelligence Magazine)</figcaption>
+    <figcaption> Input data of the wolf vs husky algorithm experiment (Image: Becoming Human: Artificial Intelligence Magazine)</figcaption>
     <img style='width:25em' src="Ethics_picture/husky_wolf_2.png"/>
 </figure>
  
@@ -132,7 +132,7 @@ This inaccuracy of the system is because of a data set that was "unfair" or did 
   
 **Example: Artificial Neural Network Algorithm For Pneumonia Patient Risk**
  
-University of Pittsburgh created a study in the 1990s to use a system to predict which pneumonia patients were low risk and which were at high risk. The system initially caused a large amount of concern to doctors because they found out that pneumonia patients with asthma was classified as low risk by the system. A rule system was implemented into the system to help solve this issue. After examining data closely, researchers founds that patients who had both pneumonia and asthma had a higher recovery rate. This is because when those patients were brought to the hospital, they were always considered to be at high risk, and immediately received proper treatment. However, the autonomous system simply believed that the presence of asthma results in being low risk, which is incorrect (Medium).
+University of Pittsburgh created a study in the 1990s to use a system to predict which pneumonia patients were low risk and which were at high risk. The system initially caused a large amount of concern to doctors because they found out that pneumonia patients with asthma were classified as low risk by the system. A rule system was implemented into the system to help solve this issue. After examining data closely, researchers found that patients who had both pneumonia and asthma had a higher recovery rate. This is because when those patients were brought to the hospital, they were always considered to be at high risk, and immediately received proper treatment. However, the autonomous system simply believed that the presence of asthma results in being low risk, which is incorrect (Medium).
  
 **Example: The Boeing 737 MAX**
  
@@ -155,7 +155,7 @@ The Boeing 737 Max 8 is different from the earlier Boeing 737 series. To allow f
 MCAS relies on only a single angle of attack sensor, instead of two. An angle of attack sensor helps warn pilots of a possibility of them losing control of the plane due to lack of lift (causing stall). Pilots are usually able to handle when the sensors are malfunctioning, however MCAS makes it a much larger problem. In both of the fatal accidents, MCAS was automatically switched on because of incorrect data from the single sensor (The Washington Post).
  
  
-Pilots can temporarily switch MCAS off, however the system will restart and continue to work if the sensor continues to warn pilots of stalls. MCAS cannot ever been overriden by the pilots. The pilots lost control of the plane during the Ethiopian Airlines and Lion Air flights as the system was continuously fed inaccurate data from the sensor indicating that there are stalls, and they were unable to pitch up when needed, causing both flights to dive into the sea (The Verge).
+Pilots can temporarily switch MCAS off, however the system will restart and continue to work if the sensor continues to warn pilots of stalls. MCAS cannot ever been overridden by the pilots. The pilots lost control of the plane during the Ethiopian Airlines and Lion Air flights as the system was continuously fed inaccurate data from the sensor indicating that there are stalls, and they were unable to pitch up when needed, causing both flights to dive into the sea (The Verge).
 
  
 Other flaws also contributed to the incident: 
@@ -200,7 +200,7 @@ Algorithmic bias can result from multiple sources.
  
 Amazon created Rekognition, which is a facial recognition software. ACLU tested the software by matching Congress members, and the result was shocking: 28 members were matched with criminals. In addition, it was found that 40% of the inaccurate image matches were of people of color (ACLU NorCal). 
  
-This is risky to be actually implemented for law enforcememt purposes, as it can make a police officer more biased before an initial encounter, or it can increase the chances of a person being questioned or searched, or can increase bias towards people of color (ACLU NorCal).
+This is risky to be actually implemented for law enforcement purposes, as it can make a police officer more biased before an initial encounter, or it can increase the chances of a person being questioned or searched, or can increase bias towards people of color (ACLU NorCal).
 
 <figure>
     <figcaption> Congress Matched to Criminals Bias Rates (Image: American Civil Liberties Union)</figcaption>
@@ -211,7 +211,7 @@ This is risky to be actually implemented for law enforcememt purposes, as it can
  
 **Example: Autonomous Systems' Identification by Skin Tone**
  
-An autonomous soap dispenser by Technical Concepts was found to have trouble dispensing people for darker skin color. This is because the dispenser relied on IR sensor which relies on how much light is reflected back. Darker skin tones absorb more light than people with lighter skin tones (Reporter). This resulted in the soap dispenser not being able to work for people with darker skin. This design flaw was believed to be because of a lack of diversity in the workplace at Technical Concepts, who did not think to test their products on people with darker skin tones (Reporter).
+An autonomous soap dispenser by Technical Concepts was found to have trouble dispensing people for darker skin color. This is because the dispenser relied on IR sensors, which sense how much light is reflected back. Darker skin tones absorb more light than people with lighter skin tones (Reporter). This resulted in the soap dispenser not being able to work for people with darker skin. This design flaw was believed to be because of a lack of diversity in the workplace at Technical Concepts, who did not think to test their products on people with darker skin tones (Reporter).
  
 <!-- https://reporter.rit.edu/tech/bigotry-encoded-racial-bias-technology -->
  
@@ -228,7 +228,7 @@ Pulling an example from earlier: Rekognition also displays the lack of accuracy 
  
 Better: Exercise: Try out some of the questions of the Moral Machine here [website](https://ici.radio-canada.ca/info/2019/voitures-autonomes-dilemme-tramway/index-en.html)
 
-In 2014, MIT has created a series of questions and scenarios that involve autonomous cars and artificial intelligence, which is known as the Moral Machine. The Moral Machine asks people which choices autonomous cars should make when facing different variations of the trolley problem (Technology Review).
+In 2014, MIT created a series of questions and scenarios that involve autonomous cars and artificial intelligence, which is known as the Moral Machine. The Moral Machine asks people which choices autonomous cars should make when facing different variations of the trolley problem (Technology Review).
 
 <figure>
     <figcaption> The Trolley Problem (Image: Medium)</figcaption>
@@ -271,7 +271,7 @@ https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to
 There are many systems in society that utilize autonomous systems that are important to society.
 There has been ongoing debate whether these systems should be close or open sourced.
  
-Open source code means that the source code can be accessed by the public. Closed source code means that the source code cannot be accessed by others, or it remains classified, only seen by those who are authorized to. While closed source codes may safer from prying eyes or hackers, it also prevents closer scrutiny for potential biases or problems in the code by the public.
+Open source code means that the source code can be accessed by the public. Closed source code means that the source code cannot be accessed by others, or it remains classified, only seen by those who are authorized to. While closed source code may result in code being safer from prying eyes or hackers, it also prevents closer scrutiny for potential biases or problems in the algorithm by the public.
  
 **Example: Use of Biometric Data in Society**
 
@@ -287,31 +287,31 @@ There are many systems that use biometric data such as FaceID, fingerprinting, t
 
 There are many advantages of biometric data in society.
 
-1. Many of the other verification methods have significant flaws or inconviences:   
+1. Many of the other verification methods have significant flaws or inconveniences:   
 
 
     Passwords can be guessed by hashing or brute force methods, only often requiring computation power. Passwords that are more complicated for computers to guess are often character sequences that are extremely difficult to remember, making it very inconvenient to use. Passwords are also very easy to change, especially for hackers who've already got past authentication. 
 
     Emails are relatively easy to hack and make it simpler to hack other personal information together, often done with the help of phishing emails that lead you to other malicious sites in disguise to ask you to authenticate into other services that you use. 
 
-    Physical hardware keys are inconvient due to the requirement of carrying them around and their ability to be easily lost or stolen. 
+    Physical hardware keys are inconvenient due to the requirement of carrying them around and their ability to be easily lost or stolen. 
 
 2. Biometric data is relatively difficult to fake:   
 
 
-    While biometric data is not completely fake proof, it does require effort such as taking very close up videos, or specifically recreating features from photos. Both of these which require extreme close contact with a specific person or extremely good equipment. 
+    While biometric data is not completely fake proof, it does require effort such as taking very close up videos, or specifically recreating features from photos. Both of these require extreme close contact with a specific person or extremely good equipment. 
 
 3. Biometric data is unique and difficult to change:  
 
  
-    Biometric data relies on unique features that you (or very few people) have, such as facial features or your voice. This makes it unique and secure. It is also difficult to change quickly by people with malicious intent, since biometric data make take some time to collect, process, and compress for usage in systems. It also makes it more convenient for users, since it does not require effort to memorize or carry around, your features are always present with you. 
+    Biometric data relies on unique features that you (or very few people) have, such as facial features or your voice. This makes it unique and secure. It is also difficult to change quickly by people with malicious intent, since biometric data may take some time to collect, process, and compress for usage in systems. It also makes it more convenient for users, since it does not require effort to memorize or carry around, your features are always present with you. 
 
 There are disadvantages of using biometric data in society.
 
 1. Biometric data is dangerous to have lying around:  
 
 
-    It is not safe to have compressed or complete biometric data present stored in systems or devices (for the verification process) where it could be vulnerable to cyberattacks. When retrieved, it can be easy use the data elsewhere or use it for identity fraud. 
+    It is not safe to have compressed or complete biometric data present stored in systems or devices (for the verification process) where it could be vulnerable to cyberattacks. When retrieved, it can be easily used elsewhere or used for identity fraud. 
 
 2. Biometric data reading systems are not yet perfect:   
 
@@ -321,7 +321,7 @@ There are disadvantages of using biometric data in society.
 3. Biometric data can still be faked:  
 
 
-    As mentioned before, biometric data is not fake proof. If people with malicious intent do have extreme resources such as 3D printers or insanely good cameras, it is still possible to get a clear copy or reproduction of your features. There has been studies where 3D printed fingerprints are found able to bypass biometric authentication (Biometric Update).
+    As mentioned before, biometric data is not fake proof. If people with malicious intent do have extreme resources such as 3D printers or insanely good cameras, it is still possible to get a clear copy or reproduction of your features. There have been studies where 3D printed fingerprints are found able to bypass biometric authentication (Biometric Update).
 <!-- https://www.biometricupdate.com/202008/researcher-uses-3d-printed-fingerprint-to-spoof-biometric-authentication -->
 
  
@@ -343,16 +343,16 @@ This is being implemented with the help of AI and facial recognition.
 </figure>
  
 
-There has been many concerns with the use of China's social credit system, fears about leading to social inequality and alienation. There are also fears of preventing a free market economy. While the benefits include trying to reduce the amount of crimes or bad habits of people.
+There have been many concerns with the use of China's social credit system, fears about leading to social inequality and alienation. There are also fears of preventing a free market economy. While the benefits include trying to reduce the amount of crimes or bad habits of people.
  
 You can read more in this [article](https://time.com/collection/davos-2019/5502592/china-social-credit-score/)
  
 **Example: Correctional Offender Management Profiling for Alternative Sanctions (COMPAS)**
  
-COMPAS is an software that is used by US courts to assign scores to predict the risk of a certain person commiting another crime.
+COMPAS is a software that is used by US courts to assign scores to predict the risk of a certain person committing another crime.
 It is an algorithm that utilizes an algorithm that considers answers to a questionnaire (The Atlantic).
  
-In 2016, ProPublica has analzyed COMPAS and has found that COMPAS displays bias against African Americans.
+In 2016, ProPublica has analyzed COMPAS and has found that COMPAS displays bias against African Americans.
 
 You can read more about COMPAS [here](https://www.theatlantic.com/technology/archive/2018/01/equivant-compas-algorithm/550646/)
  
@@ -391,11 +391,11 @@ International Traffic in Arms Regulations (ITAR) specifically covers:
  
 **Example: Predator Drones Used by the United States**
  
-There have been several predator drones that have been used by the United States Air Force (USAF) and Central Intelligence Ageny (CIA). Initially many are utilized for primarily reconaissance and spying, but many have been later equipped to be able to engage in warfare.
+There have been several predator drones that have been used by the United States Air Force (USAF) and Central Intelligence Agency (CIA). Initially many are utilized for primarily reconaissance and spying, but many have been later equipped to be able to engage in warfare.
  
 **Autonomous Weapons Compared to Chemical Weapons**
  
-"In 1996, it was mandated that all stockpiles of lethal chemical agents must be destroyed. In 1997, the US ratified Chemical Weapons Convention Treaty and agreed to destory any remaining stockpiles of chemical warfare agents to no later than April 29, 2012" (CDC).
+"In 1996, it was mandated that all stockpiles of lethal chemical agents must be destroyed. In 1997, the US ratified Chemical Weapons Convention Treaty and agreed to destroy any remaining stockpiles of chemical warfare agents no later than April 29, 2012" (CDC).
  
 There has been much debate if autonomous weapons should be treated like chemical weapons? Should they also be prohibited from use and fully destroyed?
  
@@ -410,9 +410,9 @@ There has been much debate if autonomous weapons should be treated like chemical
  
 Autonomous systems and AI systems have been also considered in the healthcare industry.
  
-This includes the uses of robots to help with identification, medical diagnosis, treatment, or surgery.
+This includes the use of robots to help with identification, medical diagnosis, treatment, or surgery.
  
-It also includes the uses of robots to help keep elderly, disabled, young children, or patients company and to surpervise them.
+It also includes the use of robots to help keep elderly, disabled, young children, or patients company and to supervise them.
  
 While there are many benefits such as being able to take care and monitor health of whoever they are responsible for and can provide them with company, there are several ethical concerns:
  
@@ -430,7 +430,7 @@ While there are many benefits such as being able to take care and monitor health
  
 **Example: The Emergency Exit Robot Study, Georgia Tech Howard**
  
-There was a study conducted by researchers at the Georgia Institute of Technology, highlighted the potential risks of putting too much trust into robots during emergency situations.
+There was a study conducted by researchers at the Georgia Institute of Technology highlighted the potential risks of putting too much trust into robots during emergency situations.
  
 They did an experiment that simulated an emergency situation. It was found that all participants of the experiment decided to follow the robot during the emergency, even if it led them through an noticeably incorrect path. Half of the participants have also seen the robot fail at navigating earlier before the specific experiment (Robinette et al.). 
  
@@ -441,7 +441,7 @@ They did an experiment that simulated an emergency situation. It was found that 
  
 The cost of autonomous systems may be high depending on the purpose of the robot. The high prices of robots currently are barring many people from more complex robots.
  
-Robots can be used to help guide people with accessbility issues. 
+Robots can be used to help guide people with accessibility issues. 
  
 Autonomous systems and advanced technology may also be used to help with emergency aid purposes. Drones can be used to help with potentially locating lost items or people, or helping transport emergency items quickly (water for forest fires ex.).
  
@@ -490,26 +490,12 @@ Ethical implications related to what AI can impact:
 2. Impact to Democracy and Civil Rights:  
 
  
-    AI may have a strong impact on democracy and civil rights. AI may be able to automatically detect certain messages or actions that are not permitted and can be used to prevent them. There has been related concerns to that and the Chinese Social Credit System, and fear that it may create a society focused around surveillance and conformity.
+    AI may have a strong impact on democracy and civil rights. AI may be able to automatically detect certain messages or actions that are not permitted and can be used to prevent them. There have been related concerns to that and the Chinese Social Credit System, and fear that it may create a society focused around surveillance and conformity.
  
 3. Human-Human or Human-Agent interaction:  
 
  
     As explored slightly in the medicine uses of robots, there will be much more interactions between human and non humans/robots in the future, which is different from interactions between humans only.
-
-### Terms
-
-**Ethics:** The term ethics originated from the word “ethos”, which is Greek for “way of living” (BBC). Ethics incorporates moral principles and values. It affects how we choose to live our lives, what we think is wrong and right, and what our responsibilities are (BBC).
-
-**AI:** Artificial Intelligence allows systems to gain the potential to accomplish tasks that usually requires the intelligence of humans or decision making skills.
-
-**DL:** Deep Learning is a portion of AI that replicates the human brain by processing data involved with object and speech recognition, and making decision (Investopedia).
-
-**ML:** Machine Learning is a portion of AI that lets systems automatically learn and improve from their experiences without programming it into the system.
-
-**Open source code:** when the source code can be accessible by the public.
-
-**Close source code:** when the source code cannot be accessed by others, or it remains classified, only seen by those who are authorized to.
 
 ### Useful Resources and Links if Interested
 
@@ -528,7 +514,7 @@ Ethical implications related to what AI can impact:
 
 7. [Interactive moral machine](https://ici.radio-canada.ca/info/2019/voitures-autonomes-dilemme-tramway/index-en.html)
 
-8. [Artcle analyzing results from different countries](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/)
+8. [Article analyzing results from different countries](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/)
 
 9. [Paper](https://www.researchgate.net/publication/329277474_Can_Everyday_AI_be_Ethical_Machine_Learning_Algorithm_Fairness_english_version
 10.13140/RG.2.2.22973.31207) about Fairness involved in Algorithms that undergo ML
