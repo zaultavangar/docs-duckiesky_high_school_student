@@ -79,7 +79,7 @@ _Human-AI interaction:_
     <img style='width:25em' src="Ethics_picture/Robots_Humans.png"/>
 </figure>
 
-    While AI systems are made to replicate human minds or be able to do human tasks, there are many things that differentiate these systems from humans. However, as AI systems improve over time, these differences may become smaller and smaller, and can  cause harm or provide benefits to people who use them.  
+While AI systems are made to replicate human minds or be able to do human tasks, there are many things that differentiate these systems from humans. However, as AI systems improve over time, these differences may become smaller and smaller, and can  cause harm or provide benefits to people who use them.  
 
 _Cyber-security and Malicious Use:_ 
 
@@ -160,23 +160,25 @@ Pilots can temporarily switch MCAS off, however the system will restart and cont
  
 Other flaws also contributed to the incident: 
  
-1. Insufficient testing:  
+_Insufficient testing:_  
 
- 
-    Boeing and FAA agreed to not install safety features, which analysts say later that these features could have saved both the planes from crashing (The Washington Post).
+
+Boeing and FAA agreed to not install safety features, which analysts say later that these features could have saved both the planes from crashing (The Washington Post).
  
 <!-- https://www.washingtonpost.com/local/trafficandcommuting/boeing-minimized-to-faa-the-importance-of-flight-control-system-implicated-in-737-max-crashes-new-report-says/2020/07/01/9900adda-bba4-11ea-8cf5-9c1b8d7f84c6_story.html-->
-2. Accountability:  
 
- 
-    Boeing did not provide the risk assessment about the MCAS until very late, a couple of months before the MAX was certified. FAA also based on findings by Boeing that were inaccurate (The Washington Post).
- 
-3. Lack of notice to pilots:  
+_Accountability:_  
 
+
+Boeing did not provide the risk assessment about the MCAS until very late, a couple of months before the MAX was certified. FAA also based on findings by Boeing that were inaccurate (The Washington Post).
  
-    During their findings, Boeing calculated that an MCAS failure was also impossible. If it did happen, it is believed to be relatively low risk because according to the FAA, it is assumed that pilots can respond to unexpected situations within three seconds (Seattle Times).
- 
-    Because of the low chances that were predicted, Boeing decided to not include the MCAS in the pilot manuals (Seattle Times).
+
+_Lack of notice to pilots:_  
+
+
+During their findings, Boeing calculated that an MCAS failure was also impossible. If it did happen, it is believed to be relatively low risk because according to the FAA, it is assumed that pilots can respond to unexpected situations within three seconds (Seattle Times).
+
+Because of the low chances that were predicted, Boeing decided to not include the MCAS in the pilot manuals (Seattle Times).
  
 <!--https://www.seattletimes.com/seattle-news/times-watchdog/the-inside-story-of-mcas-how-boeings-737-max-system-gained-power-and-lost-safeguards/ -->
  
@@ -287,41 +289,42 @@ There are many systems that use biometric data such as FaceID, fingerprinting, t
 
 There are many advantages of biometric data in society.
 
-1. Many of the other verification methods have significant flaws or inconveniences:   
+_Many of the other verification methods have significant flaws or inconveniences:_       
 
 
-    Passwords can be guessed by hashing or brute force methods, only often requiring computation power. Passwords that are more complicated for computers to guess are often character sequences that are extremely difficult to remember, making it very inconvenient to use. Passwords are also very easy to change, especially for hackers who've already got past authentication. 
+Passwords can be guessed by hashing or brute force methods, only often requiring computation power. Passwords that are more complicated for computers to guess are often character sequences that are extremely difficult to remember, making it very inconvenient to use. Passwords are also very easy to change, especially for hackers who've already got past authentication. 
 
-    Emails are relatively easy to hack and make it simpler to hack other personal information together, often done with the help of phishing emails that lead you to other malicious sites in disguise to ask you to authenticate into other services that you use. 
+Emails are relatively easy to hack and make it simpler to hack other personal information together, often done with the help of phishing emails that lead you to other malicious sites in disguise to ask you to authenticate into other services that you use. 
 
-    Physical hardware keys are inconvenient due to the requirement of carrying them around and their ability to be easily lost or stolen. 
-
-2. Biometric data is relatively difficult to fake:   
+Physical hardware keys are inconvenient due to the requirement of carrying them around and their ability to be easily lost or stolen. 
 
 
-    While biometric data is not completely fake proof, it does require effort such as taking very close up videos, or specifically recreating features from photos. Both of these require extreme close contact with a specific person or extremely good equipment. 
+_Biometric data is relatively difficult to fake:_  
 
-3. Biometric data is unique and difficult to change:  
+
+While biometric data is not completely fake proof, it does require effort such as taking very close up videos, or specifically recreating features from photos. Both of these require extreme close contact with a specific person or extremely good equipment. 
+
+_Biometric data is unique and difficult to change: _ 
 
  
-    Biometric data relies on unique features that you (or very few people) have, such as facial features or your voice. This makes it unique and secure. It is also difficult to change quickly by people with malicious intent, since biometric data may take some time to collect, process, and compress for usage in systems. It also makes it more convenient for users, since it does not require effort to memorize or carry around, your features are always present with you. 
+Biometric data relies on unique features that you (or very few people) have, such as facial features or your voice. This makes it unique and secure. It is also difficult to change quickly by people with malicious intent, since biometric data may take some time to collect, process, and compress for usage in systems. It also makes it more convenient for users, since it does not require effort to memorize or carry around, your features are always present with you. 
 
 There are disadvantages of using biometric data in society.
 
-1. Biometric data is dangerous to have lying around:  
+_Biometric data is dangerous to have lying around:_   
 
 
-    It is not safe to have compressed or complete biometric data present stored in systems or devices (for the verification process) where it could be vulnerable to cyberattacks. When retrieved, it can be easily used elsewhere or used for identity fraud. 
+It is not safe to have compressed or complete biometric data present stored in systems or devices (for the verification process) where it could be vulnerable to cyberattacks. When retrieved, it can be easily used elsewhere or used for identity fraud. 
 
-2. Biometric data reading systems are not yet perfect:   
-
-
-    Like what many of us have experienced with our smartphones, biometric data reading systems are not yet perfect. Usually it takes a couple of tries or different placements or orientations of your features to get it to work. And when it does get into a situation where you are unable to verify yourself, it is harder to get a more authentic verification of yourself. 
-
-3. Biometric data can still be faked:  
+_Biometric data reading systems are not yet perfect:_
 
 
-    As mentioned before, biometric data is not fake proof. If people with malicious intent do have extreme resources such as 3D printers or insanely good cameras, it is still possible to get a clear copy or reproduction of your features. There have been studies where 3D printed fingerprints are found able to bypass biometric authentication (Biometric Update).
+Like what many of us have experienced with our smartphones, biometric data reading systems are not yet perfect. Usually it takes a couple of tries or different placements or orientations of your features to get it to work. And when it does get into a situation where you are unable to verify yourself, it is harder to get a more authentic verification of yourself. 
+
+_Biometric data can still be faked:_  
+
+
+As mentioned before, biometric data is not fake proof. If people with malicious intent do have extreme resources such as 3D printers or insanely good cameras, it is still possible to get a clear copy or reproduction of your features. There have been studies where 3D printed fingerprints are found able to bypass biometric authentication (Biometric Update).
 <!-- https://www.biometricupdate.com/202008/researcher-uses-3d-printed-fingerprint-to-spoof-biometric-authentication -->
 
  
@@ -416,17 +419,17 @@ It also includes the use of robots to help keep elderly, disabled, young childre
  
 While there are many benefits such as being able to take care and monitor health of whoever they are responsible for and can provide them with company, there are several ethical concerns:
  
-1. Privacy/Security:   
+_Privacy/Security:_
 
  
-    Robots that spend a lot of time monitoring their patients or people that they are responsible for, may have the capability to be tapped into.
+Robots that spend a lot of time monitoring their patients or people that they are responsible for, may have the capability to be tapped into.
  
-    Especially in the medical field, these robots may contain snippets of important information such as health records, or video feeds of their patients.
+Especially in the medical field, these robots may contain snippets of important information such as health records, or video feeds of their patients.
  
-2. Trust between robots and humans, and their interactions:  
+_Trust between robots and humans, and their interactions:_   
 
  
-    Humans have emotions while robots do not. Humans may have the capability to trust their robots too much, which can result in harm from the remote or manipulation of humans.
+Humans have emotions while robots do not. Humans may have the capability to trust their robots too much, which can result in harm from the remote or manipulation of humans.
  
 **Example: The Emergency Exit Robot Study, Georgia Tech Howard**
  
@@ -482,20 +485,21 @@ With the development of AI, there has been a growing reliance on them as tools i
  
 Ethical implications related to what AI can impact:
  
-1. Automation, Job Loss, Labor Trends:  
+_Automation, Job Loss, Labor Trends:_  
 
  
-    With the automation of many jobs, people may lose those jobs to robots. This may be because some tasks are able to be done more efficiently by robots. Because some jobs are more adaptable to robots than others, this may produce labor trends. There will be new jobs created that are more oriented towards maintaining robots or certain jobs will die out.
- 
-2. Impact to Democracy and Civil Rights:  
+With the automation of many jobs, people may lose those jobs to robots. This may be because some tasks are able to be done more efficiently by robots. Because some jobs are more adaptable to robots than others, this may produce labor trends. There will be new jobs created that are more oriented towards maintaining robots or certain jobs will die out.
 
  
-    AI may have a strong impact on democracy and civil rights. AI may be able to automatically detect certain messages or actions that are not permitted and can be used to prevent them. There have been related concerns to that and the Chinese Social Credit System, and fear that it may create a society focused around surveillance and conformity.
- 
-3. Human-Human or Human-Agent interaction:  
+_Impact to Democracy and Civil Rights:_   
 
  
-    As explored slightly in the medicine uses of robots, there will be much more interactions between human and non humans/robots in the future, which is different from interactions between humans only.
+AI may have a strong impact on democracy and civil rights. AI may be able to automatically detect certain messages or actions that are not permitted and can be used to prevent them. There have been related concerns to that and the Chinese Social Credit System, and fear that it may create a society focused around surveillance and conformity.
+ 
+_Human-Human or Human-Agent interaction:_  
+
+ 
+As explored slightly in the medicine uses of robots, there will be much more interactions between human and non humans/robots in the future, which is different from interactions between humans only.
 
 ### Useful Resources and Links if Interested
 
