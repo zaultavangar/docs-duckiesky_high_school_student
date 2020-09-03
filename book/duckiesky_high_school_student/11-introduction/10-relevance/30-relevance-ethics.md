@@ -1,7 +1,7 @@
 # Intro to Ethics {#introduction-relevance-ethics status=ready}
 
 
-#### What is Ethics? 
+### What is Ethics? 
 
 The term ethics comes from the word "ethos", which is Greek for "way of living".
  
@@ -95,7 +95,7 @@ _Privacy, Control, and Surveillance:_
 AI systems can be quite easily converted for the purpose of surveillance. While it can be used for public good, naturally we would like to know exactly where and when our data will be used. But the catch here with AI systems is that others may be using our private data without our permission. AI systems learn from data provided during training, and they make predictions based on data input that they receive. The data may regard extremely sensative or important data. There must be measures put in place so that the data can be used safely and efficiently by the system, while preventing the visibility of it from prying eyes. 
 
  
-#### Correctness and Uncertainty of Algorithms
+### Correctness and Uncertainty of Algorithms
  
 By incorporating artificial intelligence (AI) into systems, they gain the potential to accomplish tasks that usually rely on the intelligence of humans. Systems can become autonomous, and do not have to rely on human control and decisions. An example of an autonomous system that is currently developing is autonomous cars.
  
@@ -180,7 +180,7 @@ Other flaws also contributed to the incident:
  
 <!--https://www.seattletimes.com/seattle-news/times-watchdog/the-inside-story-of-mcas-how-boeings-737-max-system-gained-power-and-lost-safeguards/ -->
  
-#### Algorithmic Bias
+### Algorithmic Bias
 
 Better: Exercise: Can try this [game](https://www.survivalofthebestfit.com) to learn more about bias in machine learning and algorithms.
 
@@ -266,7 +266,7 @@ https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to
  
 -->
  
-#### Security and Systems Utilized in Society:
+### Security and Systems Utilized in Society:
  
 There are many systems in society that utilize autonomous systems that are important to society.
 There has been ongoing debate whether these systems should be close or open sourced.
@@ -366,12 +366,12 @@ This shows how vulnerable systems can be when connected to the internet.
 and https://www.wired.com/story/security-robotics/
 -->
  
-#### Militarization
+### Militarization
  
 There has been consideration of using autonomous systems for militarization. This could be for making military based decisions or using these systems to take action on made military decisions.
  
  
-###### International Traffic in Arms Regulations (ITAR)
+**International Traffic in Arms Regulations (ITAR)**
  
 International Traffic in Arms Regulations (ITAR) specifically covers:
  
@@ -401,7 +401,7 @@ There has been much debate if autonomous weapons should be treated like chemical
  
 <!-- https://www.cdc.gov/nceh/demil/history.htm -->
  
-###### Medical, Healthcare, and Caregiver Robots
+### Medical, Healthcare, and Caregiver Robots
 
 <figure>
     <figcaption> Robotic Surgery (Image: AARP)</figcaption>
@@ -437,7 +437,7 @@ They did an experiment that simulated an emergency situation. It was found that 
 <!-- https://www.cc.gatech.edu/~alanwags/pubs/Robinette-HRI-2016.pdf
 -->
  
-###### Availability/Accessibility/Uses
+### Availability/Accessibility/Uses
  
 The cost of autonomous systems may be high depending on the purpose of the robot. The high prices of robots currently are barring many people from more complex robots.
  
@@ -476,7 +476,7 @@ According to Relief Web, the most promising uses of drones regarding humanitaria
 Can read about more [here](https://reliefweb.int/sites/reliefweb.int/files/resources/Drones%20in%20Humanitarian%20Action.pdf)
  
  
-###### Future impact of AI on human jobs and responsibilities
+### Future impact of AI on human jobs and responsibilities
  
 With the development of AI, there has been a growing reliance on them as tools in our daily lives.
  
@@ -497,7 +497,7 @@ Ethical implications related to what AI can impact:
  
     As explored slightly in the medicine uses of robots, there will be much more interactions between human and non humans/robots in the future, which is different from interactions between humans only.
 
-##### Terms
+### Terms
 
 **Ethics:** The term ethics originated from the word “ethos”, which is Greek for “way of living” (BBC). Ethics incorporates moral principles and values. It affects how we choose to live our lives, what we think is wrong and right, and what our responsibilities are (BBC).
 
@@ -510,3 +510,29 @@ Ethical implications related to what AI can impact:
 **Open source code:** when the source code can be accessible by the public.
 
 **Close source code:** when the source code cannot be accessed by others, or it remains classified, only seen by those who are authorized to.
+
+### Useful Resources and Links if Interested
+
+1. [Seattle Times Article](https://www.seattletimes.com/seattle-news/times-watchdog/the-inside-story-of-mcas-how-boeings-737-max-system-gained-power-and-lost-safeguards/) for more information about the MCAS system for the Boeing 737 MAX: 
+
+2. [Verge Article](https://www.theverge.com/2019/5/2/18518176/boeing-737-max-crash-problems-human-error-mcas-faa) about other flaws involved in the Boeing incidents
+
+3. [Washington Post Article](https://www.washingtonpost.com/local/trafficandcommuting/boeing-minimized-to-faa-the-importance-of-flight-control-system-implicated-in-737-max-crashes-new-report-says/2020/07/01/9900adda-bba4-11ea-8cf5-9c1b8d7f84c6_story.html) on the lack of notice to FAA about Boeing MCAS system
+
+
+4. [Paper on Predictive Inequity in Object Detection](https://arxiv.org/pdf/1902.11097.pdf)
+
+5. [Moral Machine Test](https://www.moralmachine.net)
+
+6. [Paper](https://doi.org/10.1038/s41586-018-0637-6) on the Moral Machine Experiment  
+
+7. [Interactive moral machine](https://ici.radio-canada.ca/info/2019/voitures-autonomes-dilemme-tramway/index-en.html)
+
+8. [Artcle analyzing results from different countries](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/)
+
+9. [Paper](https://www.researchgate.net/publication/329277474_Can_Everyday_AI_be_Ethical_Machine_Learning_Algorithm_Fairness_english_version
+10.13140/RG.2.2.22973.31207) about Fairness involved in Algorithms that undergo ML
+
+10. [Article](https://becominghuman.ai/its-magic-i-owe-you-no-explanation-explainableai-43e798273a08) with more detail about Pneumonia and Asthma Risk System and Wolf Vs Husky Identifier
+
+11. [Article](https://www.aclunc.org/blog/amazon-s-face-recognition-falsely-matched-28-members-congress-mugshots) about Rekognition and its failed Congress classifications
