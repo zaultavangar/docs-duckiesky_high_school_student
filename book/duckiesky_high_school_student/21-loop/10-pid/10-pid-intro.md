@@ -1,5 +1,11 @@
 # Intro to PID {#loop-pid-intro status=ready}
 
+### Open Vs Closed Loop Systems
+
+See also: Open loop system, also known as a non-feedback system, is a continuous system where output does not affect the control action of the input (Electronics Tutorials). Ex: Toaster
+
+See also: A closed loop system, also known as a feedback system, is a system where the control action is based on the output (Electronics Tutorials). Ex: Body thermoregulation
+
 ### PID Terms
 
 **Process Variable**, represented by $y(t)$: The parameter of the system that is being monitored and controlled.
