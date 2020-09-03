@@ -1,3 +1,3 @@
 # Introduction {#part:introduction status=ready}
 
-Unit Overview
+Welcome to the DuckieSky Course! This section contains all of the background information needed to dive into autonomous flight. By the end, you will be equipped with the knowledge to consider where autonomous drones fit within the history of robotics, the ethics associated with such technologies, and the safety procedures required to use such technologies. You will also be equipped with the tools to edit this documentation should there be any confusions or mistakes in the text. We hope you enjoy the course, and if there is anything that is unclear or could use more details, we encourage you to leave a git "issue" to let us know (we'll teach you how to do that in this section!) Enjoy!
