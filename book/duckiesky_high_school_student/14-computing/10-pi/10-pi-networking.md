@@ -1,4 +1,4 @@
-# Networking {#pi-networking status=ready}
+# Networking {#computing-pi-networking status=ready}
 
 -  If not for networking, we would not be able to connect to and run our drones, so it's important for us to learn the concepts of Networking!
     - The 7 layers of abstraction is 

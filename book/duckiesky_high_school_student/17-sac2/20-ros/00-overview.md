@@ -1,3 +1,3 @@
 # Middleware: ROS {#subpart:sac2-ros status=ready}
 
-Module Overview
+This subsection introduces ROS as a tool for sharing information that is collected in one program with other programs that need the same information. For example, the Python program that you wrote in the previous lesson allows you to get distance measurements from the IR sensor. It would be useful if this information could be shared with other programs such as the controller, which tells the motors how fast to spin based on how high you want the drone to fly. Later sections will discuss the use of sensor information; this subsection describes how to share that info.
