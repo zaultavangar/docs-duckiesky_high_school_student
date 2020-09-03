@@ -1,4 +1,4 @@
-# Duckiesky Student Curriculum {#book:duckiesky-high-school-student level=book status=ready}
+# Duckiesky Student Curriculum {#book:book status=ready}
 
 
 <div id="logo-container">

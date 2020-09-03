@@ -1,4 +1,3 @@
-
 To compile the book:
 
 ```
