@@ -1,32 +1,30 @@
 # Safety {#introduction-operation-safety status=ready}
-
- 
-Teachers should emphasize that the drone students are building is relatively powerful, and can cause harm to them or others if not used safely.
  
 #### Case Study: The Midair Collision in 2009
  
 There was a collision between a private airplane and a sightseeing helicopter over Manhattan. The result was 9 deaths.
  
-There were several causes that contributed to this:
+NTSB is the National Trasportation Safety Board. NTSB reports provide detailed accounts of transportation accidents. 
+
+There were several causes that contributed to this according to the NTSB report:
  
+1. The limitations of the see and avoid concept:
  
-1) The limitations of the see and avoid concept:
+    9 seconds before collision, the helicopter was not seen from the airplane.
+    5 seconds before collision, the helicopter was still very far from view.
+    1 second before collision, the helicopter was too close to be able to act sufficient.
  
-9 seconds before collision, the helicopter was not seen from the airplane.
-5 seconds before collision, the helicopter was still very far from view.
-1 second before collision, the helicopter was too close to be able to act sufficient.
+    By the time the pilot of the airplane saw the helicopter, there was no time/not sufficient enough time to avoid the helicopter.
  
-By the time the pilot of the airplane saw the helicopter, there was no time/not sufficient enough time to avoid the helicopter.
+2. Teterboro Airport local controller’s non pertinent telephone conversation (New York Times).
  
-2) Teterboro Airport local controller’s non pertinent telephone conversation (New York Times).
+    The controller was distracted as he was having a phone call. He did not communicate with the pilot and was unable to warn the pilot of a potential crash.
  
-The controller was distracted as he was having a phone call. He did not communicate with the pilot and was unable to warn the pilot of a potential crash.
+3. Inadequate FAA procedures and regulations:
  
-3) Inadequate FAA procedures and regulations:
+    There are inadequate FAA proceuures for transfer of communications between ATC facilities along that area of where the crash occured (New York Times).
  
-There are inadequate FAA proceuures for transfer of communications between ATC facilities along that area of where the crash occured (New York Times).
- 
-As well, the FAA regulations that not allow for sufficient vertical separation between aircraft flying in the region (Prof Tellex slides).
+    As well, the FAA regulations that not allow for sufficient vertical separation between aircraft flying in the region (Prof Tellex slides).
  
 <!-- https://www.nytimes.com/2009/08/15/nyregion/15crash.html
  
@@ -42,7 +40,7 @@ Students are considered to be recreational users.
  
 Faculty and staff are considered to be non-recreational users.
  
-Here are some of the important safety guidelines by the FAA:
+Here are some of the important safety guidelines by the [FAA](https://www.faa.gov):
  
 1. Fly at or below 400 feet 
 
@@ -66,18 +64,21 @@ Here are some of the important safety guidelines by the FAA:
  
 You may fly your drone indoors if you have enough space, as FAA rules do not apply to operations that take place indoors.
  
-Before flying outside, please check the FAA's website (the Chart  User's Guide or the aeronautical charts provided) to check which airspace you are located in.
+Before flying outside, please check the [FAA's website for the Chart  User's Guide](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/aero_guide/) to check which airspace you are located in.
  
-You may also use the B4UFLY app, which is created by the FAA to help recreational flyers to figure out where they can safely fly and/or any restrictions in a location.
+You may also use the [B4UFLY app](https://www.faa.gov/uas/recreational_fliers/where_can_i_fly/b4ufly/), which is created by the FAA to help recreational flyers to figure out where they can safely fly and/or any restrictions in a location.
  
 #### Possible Sources for Danger:
  
 There are several possible sources of danger that can result from the drone:
  
-1) applying force to your body
-2) energy discharge from the body
-3) parts or propellers dislodging from the drone
-4) electric shorts and fires
+1. applying force to your body
+
+2. energy discharge from the body
+
+3. parts or propellers dislodging from the drone
+
+4. electric shorts and fires
  
 #### Safe Environment
  
@@ -90,11 +91,15 @@ Be wary of this, make sure that if there is a dangerous situation, be cautious a
 Make sure that you have a safe environment to fly indoors.
  
 Make sure you have equipment:
-1) Safety glasses
-2) Gloves
-3) Walls
-4) Distance
-5) Net (not required)
+1. Safety glasses
+
+2. Gloves
+
+3. Walls
+
+4. Distance
+
+5. Net (not required)
  
 #### Pre-flight Safety Checklist
  
@@ -167,6 +172,23 @@ The first time you fly the drone or start the drone, there may be some situation
 
 - Haywire flight: check if flight controller is steady, make sure to run calibration script in terminal
 
+#### Terms
+
+**NTSB:** National Transportation Safety Board. US investigative body for vehicle/transportation accidents.
+
+**FAA:** Federal Aviation Administration which is responsible for regulation of civil aviation: including airports, air traffic management, certification of people, certification of aircraft, and protection of US assets.
+
+**See and Avoid Concept: **the concept of taking action to avoid what you see. If you are able to see a ball coming at you, you can take action: catch, dodge, etc. In the Midair Collision, time was too short to be able to take any action.
+
+**UAS:** unmanned aerial systems: systems/vehicles with no human pilot, like drones.
+
+**Kill Switch:** spacebar on the keyboard which immediately disarms the drone after they have begun flying it. If something goes wrong during flight, press the spacebar.
+
+**OSHA:** Occupational Safety and Health Adminstration.
+
+**Bystander Effect:** The more people that are present, the less likely someone will help a victim during a situation. Be wary of this, make sure that if there is a dangerous situation, be cautious and aware, and take action to help those who need it.
+
+**B4UFLY App:** app created by the FAA, helps recreational flyers to figure out where they can safely fly and if there are any restrictions in a location.
 
  
 **Useful Resources and References**
