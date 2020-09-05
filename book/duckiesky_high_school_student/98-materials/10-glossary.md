@@ -1,10 +1,10 @@
 # Glossary {#materials-glossary status=ready}
 
-This glossary contains an alphanumerically ordered list of terms utilized in this text book. Each word or phrase is linked to a page where you can learn more about the definition of the term.
+This glossary contains an alphanumerically ordered list of terms utilized in this text book. Some words or phrases are linked to a page where you can learn more about the definition of the term.
 
--AI (Artificial Intelligence)
+- AI (Artificial Intelligence)
     - Artificial intelligence allows systems to gain the potential to accomplish tasks that usually requires the intelligence of humans or decision making skills.
-
+    
 - Branch
     - A [branch](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a parallel version of a repository. It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes.
 

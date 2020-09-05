@@ -1,4 +1,4 @@
-# Intro to the Course {#introduction-relevance-society status=real
+# Intro to the Course {#introduction-relevance-society status=ready}
 
 Module Overview
 
