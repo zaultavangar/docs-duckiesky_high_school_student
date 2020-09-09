@@ -1,5 +1,7 @@
 # Simple Circuits {#electronics-circuitry-simple status=ready}
 
+**Links that cover info taught in class**
+
 [Energy Conversions Info](https://www.toppr.com/bytes/energy-conversion/)
 
 [diagram of the circuit](https://www.resistorguide.com/pictures/resistors-in-LED-circuits.png)
