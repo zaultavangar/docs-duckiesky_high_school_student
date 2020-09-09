@@ -24,7 +24,7 @@ TODO: Input details based 7 layers of abstraction.
 
 ## Networking with our Drone
 
-- Connect the Pi following the [Build Part 1 Checkpoint Instructions](https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/build_part1_checkpoint.html) from the Operations Manual
+- Connect to the Pi following the [Build Part 1 Checkpoint Instructions](https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/build_part1_checkpoint.html) from the Operations Manual
     - The text editor on this screen is Visual Studio Code (VSCode). This is a source editor that allows you to edit various files (like text and Markdown files). Use the editor to open and look at the files in the directory.
     - On the bottom of the screen is a terminal that runs in Bash. We will be learning about and directly utilizing this terminal in the next Unit.
 
