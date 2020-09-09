@@ -13,7 +13,7 @@ Here's a step by step on how to tin a wire:
 7. Remove the iron and clean it
 8. Let the wire cool.
 
-
+Note: A pre tinned wire is a wire tinned at the factory. It looks shiny on the tip and the end cannot be frayed. For this courses' purposes, you should cut the pre-tinned end, and strip the wire casing, and continue self-tinning as seen above.
 
 
 **Useful Resources and References**
