@@ -16,6 +16,6 @@
 
 [Ohm's Law Diagram](https://www.dreamstime.com/ohms-law-vector-illustration-fun-physics-mathematical-equation-explanation-colorful-ohm-volt-men-rushing-ampere-image177188389)
 
-[Video on Electricity](scienceworld.ca/resource/static-electricity/)
+Video on Electricity - scienceworld.ca/resource/static-electricity/
 
 [Glossary](https://docs.google.com/document/d/1LJzESfH8VnLDAitNTwwa-iDZs-zY-KM2v1EuWFoLz6A/edit?usp=sharing)
