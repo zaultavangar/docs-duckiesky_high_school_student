@@ -1,10 +1,10 @@
 # Glossary {#materials-glossary status=ready}
 
-This glossary contains an alphanumerically ordered list of terms utilized in this text book. Each word or phrase is linked to a page where you can learn more about the definition of the term.
+This glossary contains an alphanumerically ordered list of terms utilized in this text book. Some words or phrases are linked to a page where you can learn more about the definition of the term.
 
--AI (Artificial Intelligence)
+- AI (Artificial Intelligence)
     - Artificial intelligence allows systems to gain the potential to accomplish tasks that usually requires the intelligence of humans or decision making skills.
-
+    
 - Branch
     - A [branch](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a parallel version of a repository. It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes.
 
@@ -72,16 +72,28 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
     - A [repository](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files [including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
 - See and Avoid Concept
-    - the see and avoid concept is the concept of taking action to avoid what you see. If you are able to see a ball coming at you, you can take action: catch, dodge, etc. In the Midair Collision, time was too short to be able to take any action.
+    - The see and avoid concept is the concept of taking action to avoid what you see. If you are able to see a ball coming at you, you can take action: catch, dodge, etc. In the Midair Collision, time was too short to be able to take any action.
     
+- Shell
+    - A [shell]() is 
+
+- SSH
+    - [SSH]() stands for 
+
 - Syntax
     - [Syntax](https://www.techopedia.com/definition/3959/syntax) refers to the rules that specify the correct combined sequence of symbols that can be used to form a correctly structured program using a given programming language.
+
+- Terminal
+    - A [terminal]() is 
 
 - UAS (unmanned aerial systems) 
     - systems/vehicles with no human pilot, like drones.
 
 - Version Control Systems 
     - [Version control systems](https://www.atlassian.com/git/tutorials/what-is-version-control) are software programs that allow programmers and code-based project workers to manage the changes to their code-based projects over time with new versions.
+
+- VS Code
+    - [Visual Studio Code (VSCode)]() is 
 
 
 

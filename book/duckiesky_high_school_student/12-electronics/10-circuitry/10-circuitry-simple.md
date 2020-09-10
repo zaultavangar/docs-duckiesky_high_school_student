@@ -1,5 +1,7 @@
 # Simple Circuits {#electronics-circuitry-simple status=ready}
 
+**Links that cover info taught in class**
+
 [Energy Conversions Info](https://www.toppr.com/bytes/energy-conversion/)
 
 [diagram of the circuit](https://www.resistorguide.com/pictures/resistors-in-LED-circuits.png)
@@ -10,12 +12,10 @@
 
 **Useful Resources and References**
 
-[https://www.windows2universe.org/physical_science/physics/electricity/circuit_analogy_water_pipes.html](https://www.windows2universe.org/physical_science/physics/electricity/circuit_analogy_water_pipes.html)
+[Comparing Electricity to Water](https://www.windows2universe.org/physical_science/physics/electricity/circuit_analogy_water_pipes.html)
 
-[https://www.dreamstime.com/ohms-law-vector-illustration-fun-physics-mathematical-equation-explanation-colorful-ohm-volt-men-rushing-ampere-image177188389](https://www.dreamstime.com/ohms-law-vector-illustration-fun-physics-mathematical-equation-explanation-colorful-ohm-volt-men-rushing-ampere-image177188389)
+[Ohm's Law Diagram](https://www.dreamstime.com/ohms-law-vector-illustration-fun-physics-mathematical-equation-explanation-colorful-ohm-volt-men-rushing-ampere-image177188389)
 
-[scienceworld.ca/resource/static-electricity/](scienceworld.ca/resource/static-electricity/)
-
-[https://www.resistorguide.com/pictures/resistors-in-LED-circuits.png](https://www.resistorguide.com/pictures/resistors-in-LED-circuits.png)
+[Video on Electricity](scienceworld.ca/resource/static-electricity/)
 
 [Glossary](https://docs.google.com/document/d/1LJzESfH8VnLDAitNTwwa-iDZs-zY-KM2v1EuWFoLz6A/edit?usp=sharing)
