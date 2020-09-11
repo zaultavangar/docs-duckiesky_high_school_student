@@ -13,9 +13,11 @@
 TODO: Input details based 7 layers of abstraction.
 -->
 
-## Control
+## Basestations
 
--  How can we control our computers?   
+- What is a basestation?
+    - For our purposes, a basestation is a laptop or desktop (ie. not a tablet) with the ability to connect to WiFi over a network and that has the ability to run/read python.
+-  How can we control our basestations?   
     - A shell is a programming language that takes input and gives the input to the computer and operating system to analyze and perform the task that the input asks for. 
     - A terminal is a program that allows the user to interact with the shell.
         1. We will learn more about the terminal in the next lesson on Bash, which is the programming language that many terminals run in.

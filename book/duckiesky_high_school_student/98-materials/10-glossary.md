@@ -5,6 +5,9 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
 - AI (Artificial Intelligence)
     - Artificial intelligence allows systems to gain the potential to accomplish tasks that usually requires the intelligence of humans or decision making skills.
     
+- Basestation
+    - A basestation is a laptop or desktop (ie. not a tablet) with the ability to connect to WiFi over a network and that has the ability to run/read python.
+
 - Branch
     - A [branch](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a parallel version of a repository. It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes.
 
