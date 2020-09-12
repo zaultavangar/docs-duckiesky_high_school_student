@@ -224,7 +224,7 @@ We can rearrange the equation to solve for $c$:
 \]
 
 ### Find the Constant
-Use your multimeter and your `ir.py` script to get the value for v(a) and a. Plug these values into the above equation to find the value for $c$
+Use your multimeter and your `ir.py` script to get the value for v(a) and a. Plug these values into the above equation to find the value for $c$. To do this, position the IR sensor between 10-80 cm from an object, then run your ir.py script. Without moving the IR sensor, read the voltage. Divide voltage by the value printed in the ir.py script, and you've got $c$ !
 
 
 ### Function Composition
@@ -404,5 +404,3 @@ def get_distance(raw_ADC_counts):
 Copy the new code to your `ir.py` script, and run it as you did before. Use a meter stick to check if the height measurements are accurate.
 
 Congrats on getting calibrated measurements on your drone!
-
-TODO: find a better way to show the differences between each coding addition
