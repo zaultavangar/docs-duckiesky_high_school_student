@@ -52,6 +52,8 @@ The easiest way to derive the relationship between the IR sensor voltage and dis
 
 Gather your drone build and and a meter stick. Hold the meter stick up, or lean it against a wall. Face the sensor at  1 cm above the ground and use the multimeter to measure the voltage, as was done in Build Part 2 Checkpoint. Record the voltage in the spreadsheet column titled "Voltage (V)". Repeat this step for each distance measurement.
 
+Note: For the distances less than 10cm, you will need to use the 20V setting on the multimeter when measuring. For greater distances, you can use the 2V setting.
+
 ### Analyze the Data
 
 Figure 1 is a scatter plot that compares the voltage output from the sensor to the distance from the ground. Take a look at one of the data points on the plot. Notice that the _x_ value is the distances that you measured at, and the _y_ value is the voltage output that you recorded. We can use this plot to get the distance from the voltage. However, what happens if we are given a voltage that is not one of our data points? For example, we know the voltages at 40cm and 50cm, but what if the drone is at 45cm?
@@ -165,7 +167,10 @@ We need to rearrange the equation to solve for distance:
   \textrm{distance} = \frac{m}{\textrm{voltage} - b}
 \]
 
-Now we can find any distance given the voltage! All we have to do is find $\frac{1}{\textrm{voltage}}$ and then plug this value into the formula above!
+Now we can find any distance given the voltage!
+
+**Try it out**
+Hold your drone at a certain height between 10-80cm, read the voltage, plug it into the formula above, and see if the value you get is the correct height.
 
 
 If you would like another example of linearizing graphs, watch this [video tutorial](https://www.youtube.com/watch?v=LqKmjMRtxkA)
