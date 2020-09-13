@@ -50,7 +50,7 @@ The easiest way to derive the relationship between the IR sensor voltage and dis
 
 ### Collect Data
 
-Gather your drone build and and a meter stick. Hold the meter stick up, or lean it against a wall. Face the sensor at  1 cm above the ground and use the multimeter to measure the voltage, as was done in Build Part 2 Checkpoint. Record the voltage in the spreadsheet column titled "Voltage (V)". Repeat this step for each distance measurement.
+Gather your drone build and and a meter stick. Hold the meter stick up, or lean it against a wall. Face the sensor at  0.01m (1 cm) above the ground and use the multimeter to measure the voltage, as was done in Build Part 2 Checkpoint. Record the voltage in the spreadsheet column titled "Voltage (V)". Repeat this step for each distance measurement.
 
 Note: For the distances less than 10cm, you will need to use the 20V setting on the multimeter when measuring. For greater distances, you can use the 2V setting.
 
@@ -174,7 +174,6 @@ Hold your drone at a certain height between 10-80cm, read the voltage, plug it i
 
 
 If you would like another example of linearizing graphs, watch this [video tutorial](https://www.youtube.com/watch?v=LqKmjMRtxkA)
-
 
 ## Geometrical derivation
 

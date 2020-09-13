@@ -304,6 +304,11 @@ adc = Adafruit_ADS1x15.ADS1115()
 GAIN = 1
 CHANNEL = 0
 
+# define the calibration function
+def get_distance(raw_ADC_counts):
+  d = m * 1/(c * raw_ADC_counts) + b
+  return d
+
 # loop to continuously read and print the ADC output
 while True:
 
@@ -314,17 +319,10 @@ while True:
   print(value)
 
   time.sleep(1)
-
-# define the calibration function
-def get_distance(raw_ADC_counts):
-  d = m * 1/(c * raw_ADC_counts) + b
-  return d
 ```
 
 ### Fill in Constants
-Unfortunately, this function will throw an error at this point, because neither $m$, $c$, or $b$ are defined. Define these values before computing $d$ by filling in the constants that you found from Activity 4 ($c$) and the previous lesson ($m$ and $b$). If you did not do activity 4, you can use INSERT VALUE for $c$
-
-TODO: insert a given value for C
+Unfortunately, this function will throw an error at this point, because neither $m$, $c$, or $b$ are defined. Define these values before computing $d$ by filling in the constants that you found from Activity 4 ($c$) and the previous lesson ($m$ and $b$). If you did not do activity 4, you can use `0.00012438` for $c$. The variables $m$, $c$, and $b$ are called _local variables_ because they are only defined within the _get_distance_ function.
 
 ```
 # import the time library
@@ -340,6 +338,14 @@ adc = Adafruit_ADS1x15.ADS1115()
 GAIN = 1
 CHANNEL = 0
 
+# define the calibration function
+def get_distance(raw_ADC_counts):
+  m = 0  # use your own value for m
+  b = 0  # use your own value for b
+  c = 0  # use your own value for c
+  d = m * 1/(c * raw_ADC_counts) + b
+  return d
+
 # loop to continuously read and print the ADC output
 while True:
 
@@ -350,14 +356,6 @@ while True:
   print(value)
 
   time.sleep(1)
-
-# define the calibration function
-def get_distance(raw_ADC_counts):
-  m = 0  # change this value to the one you found in the previous lesson
-  b = 0  # change this value to the one you found in the previous lesson
-  c = 0  # change this value to the one you just found
-  d = m * 1/(c * raw_ADC_counts) + b
-  return d
 ```
 
 ### Call the Function
@@ -377,6 +375,14 @@ adc = Adafruit_ADS1x15.ADS1115()
 GAIN = 1
 CHANNEL = 0
 
+# define the calibration function
+def get_distance(raw_ADC_counts):
+  m = 0  # use your own value for m
+  b = 0  # use your own value for b
+  c = 0  # use your own value for c
+  d = m * 1/(c * raw_ADC_counts) + b
+  return d
+
 # loop to continuously read and print the ADC output
 while True:
 
@@ -390,14 +396,6 @@ while True:
   print(distance)
 
   time.sleep(1)
-
-# define the calibration function
-def get_distance(raw_ADC_counts):
-  m = 0
-  c = 0
-  b = 0
-  d = m * 1/(c * raw_ADC_counts) + b
-  return d
 ```
 
 ### Run the script
