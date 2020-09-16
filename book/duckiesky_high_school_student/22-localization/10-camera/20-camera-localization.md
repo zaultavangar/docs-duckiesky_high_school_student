@@ -1,8 +1,7 @@
 # Drone Localization {#localization-camera-localization status=ready}
-# Drone Localization {#localization-camera-localization status=ready} 
 
  
- 
+ test1
 
 The Drone flys over a known environment. To localize, state estimation is required on a system that changes over time.(The drone changes the view when flying over time.) 
 
