@@ -9,7 +9,7 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
     - A basestation is a laptop or desktop (ie. not a tablet) with the ability to connect to WiFi over a network and that has the ability to run/read python.
 
 - Bash
-    - [Bash]()
+    - [Bash](https://study.com/academy/lesson/shell-terminal-bash-kernel-in-linux-definition-basic-commands.html) is a type of program language. It is utilized in many shells.
 
 - Branch
     - A [branch](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a parallel version of a repository. It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes.
@@ -27,7 +27,7 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
     - when the source code cannot be accessed by others, or it remains classified, only seen by those who are authorized to.
 
 - Directory
-    - A [directory]() is 
+    - A [directory](https://techterms.com/definition/directory) is another name for a folder.
 
 - DL (Deep Learning)
     - Deep Learning is a portion of AI that replicates the human brain by processing data involved with object and speech recognition, and making decisions (Investopedia).
@@ -67,7 +67,7 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
 
 - Markdown
     - [Markdown](https://www.markdowntutorial.com/) is a text-to-HTML conversion tool for web writers.
-    
+
 - Markduck
     - [Markduck](https://docs.duckietown.org/DT19/duckumentation/out/markduck_basic.html) is a Markdown dialect that supports many Markdown features. It is the language that the majority of the Duckiesky High School Textbook [including this document) was written in.
 
@@ -91,16 +91,16 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
     - The see and avoid concept is the concept of taking action to avoid what you see. If you are able to see a ball coming at you, you can take action: catch, dodge, etc. In the Midair Collision, time was too short to be able to take any action.
     
 - Shell
-    - A [shell]() is 
+    - A [shell](https://study.com/academy/lesson/shell-terminal-bash-kernel-in-linux-definition-basic-commands.html) is a programming language that takes input and gives the input to the computer and operating system to analyze and perform the task that the input asks for. 
 
 - SSH
-    - [SSH]() stands for 
+    - [SSH](https://techterms.com/definition/ssh) (Secure Shell) is a method that allows a user to remotely log in from one computer/device to another.
 
 - Syntax
     - [Syntax](https://www.techopedia.com/definition/3959/syntax) refers to the rules that specify the correct combined sequence of symbols that can be used to form a correctly structured program using a given programming language.
 
 - Terminal
-    - A [terminal]() is 
+    - A [terminal](https://study.com/academy/lesson/shell-terminal-bash-kernel-in-linux-definition-basic-commands.html) is a program that allows the user to interact with the shell.
 
 - UAS (unmanned aerial systems) 
     - systems/vehicles with no human pilot, like drones.
@@ -109,7 +109,7 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
     - [Version control systems](https://www.atlassian.com/git/tutorials/what-is-version-control) are software programs that allow programmers and code-based project workers to manage the changes to their code-based projects over time with new versions.
 
 - VS Code
-    - [Visual Studio Code (VSCode)]() is 
+    - [Visual Studio Code (VSCode)](https://code.visualstudio.com/) is a code editor offered by Microsoft.
 
 
 
