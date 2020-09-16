@@ -142,7 +142,7 @@ For more info: [ROS wiki](http://wiki.ros.org/rosbag/Commandline)
 
 ## Environment Variables
 
-Environment variables modify key attributes of a program. For our applications in ROS, the most important environment variable is `ROS_MASTER_URI`. To change an environment variable, you can either type `export (VARIABLE) = (value)` with the correct variable and values into the terminal. These changes will only be temporary and you'll need to export the values every time. Alternatively, you can create a shell script to export the values for you, as we have done in the [pidrone_pkg](https://github.com/h2r/pidrone_pkg). Take a look at the `setup_for_managed_mode.sh` and `setup_for_master_mode.sh` scripts.
+Environment variables modify key attributes of a program. For our applications in ROS, the most important environment variable is `ROS_MASTER_URI`. To check the value of this environment variable, type `echo $ROS_MASTER_URI` and press enter in the terminal, and the value will be printed out. the `$` symbol is used to signal environment variables. To change an environment variable, you can either type `export (VARIABLE)=(value)` with the correct variable and values into the terminal. These changes will only be temporary and you'll need to export the values every time. Alternatively, you can create a shell script to export the values for you, as we have done in the [pidrone_pkg](https://github.com/h2r/pidrone_pkg). Take a look at the `setup_for_managed_mode.sh` and `setup_for_master_mode.sh` scripts.
 
 ### ROS MASTER URI
 
