@@ -306,7 +306,7 @@ CHANNEL = 0
 
 # define the calibration function
 def get_distance(raw_ADC_counts):
-  d = m * 1/(c * raw_ADC_counts) + b
+  d = m * 1.0/(c * raw_ADC_counts) + b
   return d
 
 # loop to continuously read and print the ADC output
@@ -380,7 +380,7 @@ def get_distance(raw_ADC_counts):
   m = 0  # use your own value for m
   b = 0  # use your own value for b
   c = 0  # use your own value for c
-  d = m * 1/(c * raw_ADC_counts) + b
+  d = m * 1.0/(c * raw_ADC_counts) + b
   return d
 
 # loop to continuously read and print the ADC output
