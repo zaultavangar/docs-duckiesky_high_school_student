@@ -8,6 +8,9 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
 - Basestation
     - A basestation is a laptop or desktop (ie. not a tablet) with the ability to connect to WiFi over a network and that has the ability to run/read python.
 
+- Bash
+    - [Bash]()
+
 - Branch
     - A [branch](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a parallel version of a repository. It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes.
 
@@ -23,13 +26,17 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
 - Closed source code
     - when the source code cannot be accessed by others, or it remains classified, only seen by those who are authorized to.
 
-- DuckieSky
-    - [DuckieSky](https://sites.brown.edu/duckiesky/) is a program within Duckietown lead by Professor Stefanie Tellex that develops and manages the MOOC-based drone curriculum in this book and that distributes drone kits to high schools throughout Rhode Island.
-- Duckietown Foundation
-    - [The Duckietown Foundation](https://www.duckietown.org/about/duckietown-foundation) is the non-profit foundation that develops and promotes the Duckietown project, which explores autonomous robot platforms. You can read more about Duckietown.
+- Directory
+    - A [directory]() is 
 
 - DL (Deep Learning)
     - Deep Learning is a portion of AI that replicates the human brain by processing data involved with object and speech recognition, and making decisions (Investopedia).
+
+- DuckieSky
+    - [DuckieSky](https://sites.brown.edu/duckiesky/) is a program within Duckietown lead by Professor Stefanie Tellex that develops and manages the MOOC-based drone curriculum in this book and that distributes drone kits to high schools throughout Rhode Island.
+
+- Duckietown Foundation
+    - [The Duckietown Foundation](https://www.duckietown.org/about/duckietown-foundation) is the non-profit foundation that develops and promotes the Duckietown project, which explores autonomous robot platforms. You can read more about Duckietown.
 
 - Ethics
     - The term ethics originated from the word “ethos”, which is Greek for “way of living” (BBC). Ethics incorporates moral principles and values. It affects how we choose to live our lives, what we think is wrong and right, and what our responsibilities are (BBC).
@@ -39,12 +46,16 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
 
 - Fork
     - A [fork](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original upstream repository. You can also open a pull request in the upstream repository and keep your fork synced with the latest changes since both repositories are still connected.
+
 - Git
     - [Git](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is an open-source program for tracking changes in text files. It was written by the author of the Linux operating system, and is the core technology that GitHub, the social and user interface, is built on top of. 
+
 - GitHub
     - [GitHub](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a Git repository hosting service, or an online datastructure that is a basis for storing and presenting these code projects.
+
 - HTML
     - [HTML](https://techterms.com/definition/html) [Hypertext Markup Language) is a programming language used to create webpages.
+
 - Issue
     - An [issue](https://docs.github.com/en/github/getting-started-with-github/github-glossary) is a suggested improvement, task or question related to the repository. Issues can be created by anyone (for public repositories), and are moderated by repository collaborators.
 
@@ -53,8 +64,10 @@ This glossary contains an alphanumerically ordered list of terms utilized in thi
 
 - ML (Machine Learning)
     - Machine Learning is a portion of AI that lets systems learn and improve from their experiences without programming it into the system.    
+
 - Markdown
     - [Markdown](https://www.markdowntutorial.com/) is a text-to-HTML conversion tool for web writers.
+    
 - Markduck
     - [Markduck](https://docs.duckietown.org/DT19/duckumentation/out/markduck_basic.html) is a Markdown dialect that supports many Markdown features. It is the language that the majority of the Duckiesky High School Textbook [including this document) was written in.
 

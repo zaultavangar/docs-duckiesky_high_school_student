@@ -42,13 +42,13 @@ which gpio
 
 You should get an output of **/usr/bin/gpio** path.
 
-Now we are ready to make the bash script. The first step is to create a file such as **blink.sh** with the **nano** command.
+Now we are ready to make the bash script. The first step is to create a file such as **blink.sh** with the **touch** command.
 
 ```
-nano blink.sh
+touch blink.sh
 ```
 
-Then fill in the following script:
+Then, navigate to the blink.sh file through the navigator on the left side of the screen editor, open it, and fill in the following script:
 
 ```
 while :
