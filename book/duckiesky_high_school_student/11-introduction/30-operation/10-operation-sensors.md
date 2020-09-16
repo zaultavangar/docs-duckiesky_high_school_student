@@ -21,7 +21,7 @@
  
 <figure>
    <figcaption>IR + IR Sensor Cable</figcaption>
-   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/assets/data-from-img-new-ir-36e36345.png"/>
+   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/out/assets/data-from-img-new-ir-36e36345.png"/>
 </figure>
  
  
@@ -30,14 +30,14 @@
  
 <figure>
    <figcaption>Camera (Pi Cam) + Flexible Flat Cable (FFC)</figcaption>
-   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/assets/data-from-img-new-picam-082ec991.png"/>
+   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/out/assets/data-from-img-new-picam-082ec991.png"/>
 </figure>
 
 3. **Inertial Measurement Unit (IMU)** - sensor on your flight controller (FC) that allows the drone to tell how it is accelerating and rotating in all 3 dimensions
  
 <figure>
    <figcaption>Flight Controller (FC) with IMU</figcaption>
-   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/assets/data-from-img-new-fc-7d71a642.png"/>
+   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/out/assets/data-from-img-new-fc-7d71a642.png"/>
 </figure>
 
 
@@ -47,14 +47,14 @@
  
 <figure>
    <figcaption>2 CW and 2 CCW Motors</figcaption>
-   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/assets/data-from-img-2205_2300kv_brushless_motors_red-5ef15e4a.jpg"/>
+   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/out/assets/data-from-img-2205_2300kv_brushless_motors_red-5ef15e4a.jpg"/>
 </figure>
  
 2. **Propellers** - device with blades attached to motors to turn rotational motion into thrust (quantity = 4)
  
 <figure>
    <figcaption>2 Clockwise and 2 Counterclockwise Blade Propellers (with Extras) </figcaption>
-   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/assets/data-from-img-new-props-6ff462ed.png"/>
+   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/out/assets/data-from-img-new-props-6ff462ed.png"/>
 </figure>
  
 3. **LED** - actuator that lights up that you will be using in some experiments
@@ -70,7 +70,7 @@
  
 <figure>
    <figcaption>1 ESC for each Motor</figcaption>
-   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/assets/data-from-img-new-esc-1f0c9494.png"/>
+   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/out/assets/data-from-img-new-esc-1f0c9494.png"/>
 </figure>
  
 2. **Flight Controller** - computer that connects the IMU sensor to the ESCs and motors to react quickly in order to fly the drone at a particular angle
@@ -78,12 +78,12 @@
  
 <figure>
    <figcaption>Flight Controller</figcaption>
-   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/assets/data-from-img-new-fc-7d71a642.png"/>
+   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/out/assets/data-from-img-new-fc-7d71a642.png"/>
 </figure>
  
 3. **Raspberry Pi** - more powerful computer that accomplishes a complicated goal, such as flying at a particular speed or to a particular position (it excecutes specific code loaded via an SD card)
  
 <figure>
    <figcaption>Raspberry Pi Model B</figcaption>
-   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/opmanual_sky/out/assets/data-from-img-new-pi-f1992335.png"/>
+   <img style='width:16em' src="https://docs.duckietown.org/daffy/opmanual_sky/out/assets/data-from-img-new-pi-f1992335.png"/>
 </figure>
