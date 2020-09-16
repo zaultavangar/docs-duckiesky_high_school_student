@@ -6,7 +6,7 @@ This is how localization on the drone works. The drone has a picture of the enti
 
 Of course, there is a lot math and code behind the picture matching process of the drone; however, the higher level understanding is just as described.
 
-### Compiling Map Image For Drone Use ###
+### Compiling Map Image For Drone Use 
 
 [Fotor](https://www.fotor.com/creat/collage) Image Compiler
 

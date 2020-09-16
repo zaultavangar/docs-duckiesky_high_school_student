@@ -4,10 +4,13 @@
 
 The introduction to Sensors lesson explained the importance of sensors to robots, and the specific sensors used on the drone. The sensor calibration lesson demonstrated how to convert the sensor output into a useful measurement with units. Specifically, the voltage output of the IR sensor was calibrated to obtain distance measurements in meters. This calibration is important because it will allow the drone to know how high above the ground it is, which allows the user to control how high they want the drone to fly. The next step is to create a way for the drone to read these calibrated measurements so that it can use them while flying. This lesson contains the background knowledge for making a sensor and computer "talk" to each other, as well as instructions to write a python script that allows the Pi to read values from the ADC, and convert into calibrated distance measurements.
 
+### Analog to digital conversion
 As you've learned, sensors can produce either digital or analog outputs. If the sensor produces an analog output, like the IR sensor, then it is easy for a human to read the sensor value using a multimeter; however, it is not possible for most computers, like the Pi, to read the output since they can only read digital signals. Recall that this problem was solved by introducing the analog-to-digital converter, or ADC. The new problem that arises is how to read the sensor using the Pi.
 
+### Communication protocols
 In order for two digital devices to communicate, the device that is sending the information and the device that is receiving the information must speak the same language. For the IR sensor, the device that is sending the information is the ADC, and the device that is receiving the information is the Pi. In this case, the information is the digitized IR sensor measurement. In the world of digital devices, the "languages" are called **communication protocols**. The communication protocol used by the ADC and the Pi is called I2C (pronounced "I squared C" or "I two C"). I2C is a **serial** communinication protocol, which means that information is sent sequentially. For example, if the ADC wanted to send the binary value `1011`, it would need to first send `1`, then `1`, `0`, and finally `1`. There is lots to learn about different communication protocols, their use cases, and how they are implemented. While it can be easy to get lost in the details, it is important to keep the goal in mind: to create a way for digital devices to communicate.
 
+### Software libraries
 Fortunately for programmers, the nitty-gritty of communication protocols are handled for us by software libraries that contain **classes** and **methods** that allow other programmers to talk to the devices. The library that will be used for the ADC is called the created by Adafruit to make it easy for programmers to use their device. Here is the [github repository](https://github.com/adafruit/Adafruit_Python_ADS1x1) for this library for reference, but all you need to know is that this is what makes it easy to use the ADC.
 
 ## Activity 1: Reading ADC values
@@ -20,7 +23,7 @@ Plug in the battery, connect to your drone's wifi, and to browse to its code edi
 Create a new folder for your code in the `~/ws/src/pidrone_pkg` directory and name it `student`
 
 ### Create a new file
-Create a new file in the `~/ws/src/student` directory and name it `ir.py`
+Create a new file in the `~/ws/src/pidrone_pkg/student` directory and name it `ir.py`
 
 ### Import the library
 Import the Adafruit_ADS1x15 library using the Python import syntax. When you import a library, you have access to all of the functions, classes, and methods that are included.
@@ -117,12 +120,12 @@ If you get an error, try copying and pasting the code again.
 
 To run the script again, simply press the up arrow on your keyboard and press enter. Try running the script while holding the drones at different heights.
 
-Q: Are there any similarities between this value and the value that you were read with the multimeter?
+Q: Are there any similarities between this value and the value that you read with the multimeter?
 
 A: You'll find out in activity 3!
 
 ## Activity 2: Creating a Loop
-It's not very fun or useful to have to re-run the `ir.py` script everytime you want to take a measurement. Since our goal is for the drone to know how high it is flying, we don't want to have to run the script each time the height of the drone changes (which is quite often!). Fortunately, there is a programming tool called a **while loop**, which lets us rerun certain lines of code  while some condition holds true. Let's add while loop to our script so that it keeps printing out the ADC output until we tell it to stop.
+It's not very fun or useful to have to re-run the `ir.py` script everytime you want to take a measurement. Since our goal is for the drone to know how high it is flying, we don't want to have to run the script each time the height of the drone changes (which is quite often!). Fortunately, there is a programming tool called a **while loop**, which lets us rerun certain lines of code  while some condition holds true. Let's add a while loop to our script so that it keeps printing out the ADC output until we tell it to stop.
 
 ### Add the while loop
 The simplest condition for a while loop is the boolean, True. If we use True as the condition for the while loop, the loop will never stop, and the script will continuously read and print the ADC output.
@@ -151,7 +154,7 @@ while True:
 Notice that the reading and printing lines are indented. Anything that is indented after the while loop is repeated.
 
 ### Run the Script
-Follow the same steps as before to run the script now that we've updated it. When you want to stop the script, you will need to press the `control` and, while holding this key, press `c` on your keyboard.
+Follow the same steps as before to run the script now that we've updated it. When you want to stop the script, you will need to press the `control` (ctrl) key, and while holding this key down, press `c` on your keyboard.
 
 ### Slow down!
 As you'll see the values are printing out *really* fast! The while loop is running as fast as the Pi can go; unfortunately, allowing this to happen uses up the Pi's computing resources, and slows down the other processes on the Pi. How about we wait 1 second between measurements to slow down the loop; this will also make it easier for us to read the values being printed.
@@ -224,7 +227,7 @@ We can rearrange the equation to solve for $c$:
 \]
 
 ### Find the Constant
-Use your multimeter and your `ir.py` script to get the value for v(a) and a. Plug these values into the above equation to find the value for $c$
+Use your multimeter and your `ir.py` script to get the value for v(a) and a. Plug these values into the above equation to find the value for $c$. To do this, position the IR sensor between 10-80 cm from an object, then run your ir.py script. Without moving the IR sensor, read the voltage. Divide voltage by the value printed in the ir.py script, and you've got $c$ !
 
 
 ### Function Composition
@@ -276,7 +279,7 @@ In activity 4, we found that we can convert the raw ADC counts to distance using
 Let's add this function to our `ir.py` script to do the conversion.
 
 ### Define the function
-To define a function in Python, you simply use the keyword, *def*, followed by the function name and parentheses that contain the function arguments. Here is the gernal syntax for defining a function:
+To define a function in Python, you simply use the keyword, *def*, followed by the function name and parentheses that contain the function arguments. Here is the general syntax for defining a function:
 
 ```
 def my_function(arg1, arg2, ..., argN):
@@ -301,6 +304,11 @@ adc = Adafruit_ADS1x15.ADS1115()
 GAIN = 1
 CHANNEL = 0
 
+# define the calibration function
+def get_distance(raw_ADC_counts):
+  d = m * 1.0/(c * raw_ADC_counts) + b
+  return d
+
 # loop to continuously read and print the ADC output
 while True:
 
@@ -311,17 +319,10 @@ while True:
   print(value)
 
   time.sleep(1)
-
-# define the calibration function
-def get_distance(raw_ADC_counts):
-  d = m * 1/(c * raw_ADC_counts) + b
-  return d
 ```
 
 ### Fill in Constants
-Unfortunately, this function will throw an error at this point, because neither $m$, $c$, or $b$ are defined. Define these values before computing $d$ by filling in the constants that you found from Activity 4 ($c$) and the previous lesson ($m$ and $b$). If you did not do activity 4, you can use INSERT VALUE for $c$
-
-TODO: insert a given value for C
+Unfortunately, this function will throw an error at this point, because neither $m$, $c$, or $b$ are defined. Define these values before computing $d$ by filling in the constants that you found from Activity 4 ($c$) and the previous lesson ($m$ and $b$). If you did not do activity 4, you can use `0.00012438` for $c$. The variables $m$, $c$, and $b$ are called _local variables_ because they are only defined within the _get_distance_ function.
 
 ```
 # import the time library
@@ -337,6 +338,14 @@ adc = Adafruit_ADS1x15.ADS1115()
 GAIN = 1
 CHANNEL = 0
 
+# define the calibration function
+def get_distance(raw_ADC_counts):
+  m = 0  # use your own value for m
+  b = 0  # use your own value for b
+  c = 0  # use your own value for c
+  d = m * 1/(c * raw_ADC_counts) + b
+  return d
+
 # loop to continuously read and print the ADC output
 while True:
 
@@ -347,14 +356,6 @@ while True:
   print(value)
 
   time.sleep(1)
-
-# define the calibration function
-def get_distance(raw_ADC_counts):
-  m = 0
-  c = 0
-  b = 0
-  d = m * 1/(c * raw_ADC_counts) + b
-  return d
 ```
 
 ### Call the Function
@@ -374,6 +375,14 @@ adc = Adafruit_ADS1x15.ADS1115()
 GAIN = 1
 CHANNEL = 0
 
+# define the calibration function
+def get_distance(raw_ADC_counts):
+  m = 0  # use your own value for m
+  b = 0  # use your own value for b
+  c = 0  # use your own value for c
+  d = m * 1.0/(c * raw_ADC_counts) + b
+  return d
+
 # loop to continuously read and print the ADC output
 while True:
 
@@ -383,26 +392,13 @@ while True:
   # call the calibration function
   distance = get_distance(value)
 
-  # print the adc value
-  print(value)
-
   # print the calibrated value
   print(distance)
 
   time.sleep(1)
-
-# define the calibration function
-def get_distance(raw_ADC_counts):
-  m = 0
-  c = 0
-  b = 0
-  d = m * 1/(c * raw_ADC_counts) + b
-  return d
 ```
 
 ### Run the script
 Copy the new code to your `ir.py` script, and run it as you did before. Use a meter stick to check if the height measurements are accurate.
 
 Congrats on getting calibrated measurements on your drone!
-
-TODO: find a better way to show the differences between each coding addition
