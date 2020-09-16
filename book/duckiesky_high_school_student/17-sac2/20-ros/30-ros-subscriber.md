@@ -1,4 +1,4 @@
-# Subscriber and Open Loop {#sac2-ros-subscriber status=ready}
+# Subscriber, PWM and Open Loop {#sac2-ros-subscriber status=ready}
 In this section we will introduce you to the concepts of PWM, Pulse Width Modulation, building an open loop controller, and writing a ROS subscriber. We will use these techniques to control the brightness of your LED based on the ROS Distance Publisher you just wrote.
 
 ## PWM
