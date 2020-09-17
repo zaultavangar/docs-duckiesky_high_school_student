@@ -40,7 +40,7 @@ Better: Exercise: Students should do the following steps with Bash commands to t
     - Enter "cat World.txt".
     - Congratulations! You have completed this conventional introductory "Hello World" step! 
 - Before continuing, use the VSCode navigator on the left side of the text editor to navigate to the Hello directory and open the World.txt file for viewing purposes (if it's not showing up, you might have to hit the "Refresh Explorer" option).
-    -We could have used this to input the text into the World.txt file, but you may not always have this handy web editor when dealing with a terminal.
+    - We could have used this to input the text into the World.txt file, but you may not always have this handy web editor when dealing with a terminal.
 -  Delete the "World.txt" file
     - The **"rm"** command deletes files: enter "rm World.txt".
 -  Leave the "Hello" directory
