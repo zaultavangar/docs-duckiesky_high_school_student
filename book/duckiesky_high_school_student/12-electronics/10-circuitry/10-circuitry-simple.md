@@ -1,16 +1,6 @@
-# Simple Circuits {#electronics-circuitry-simple status=ready}
+# Simple Circuits {#electronics-circuitry-simple status=ready
 
-Charge:
-
-Voltage:
-
-Current:
-
-Resistance:
-
-Conductor:
-
-Insulator:
+**Links that cover info taught in class**
 
 [Energy Conversions Info](https://www.toppr.com/bytes/energy-conversion/)
 
