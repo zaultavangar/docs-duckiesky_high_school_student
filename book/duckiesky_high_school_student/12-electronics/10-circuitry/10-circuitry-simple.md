@@ -1,4 +1,4 @@
-# Simple Circuits {#electronics-circuitry-simple status=ready
+# Simple Circuits {#electronics-circuitry-simple status=ready}
 
 **Links that cover info taught in class**
 
