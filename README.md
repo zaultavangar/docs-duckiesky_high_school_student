@@ -11,4 +11,4 @@ is necessary.
 
 I am interested in this course because:
 **A fun way to teach students about robots**
-__Specifically drones__
+__Specifically drone__
