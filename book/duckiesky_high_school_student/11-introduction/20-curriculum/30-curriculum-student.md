@@ -27,3 +27,12 @@ I am interested in this course because:
 - I enjoy making _drone curriculum_
 
 Warning: I do not particularly like troubleshooting issues with drones.
+
+## George's Section
+
+I am interested in this course because:
+
+_I want to learning about drones_
+    1. I would like to underdtand the mechanics of building a drone.
+    2. More specifically assembling the parts.
+ [Robotic club] [Pre-engineering internship]
