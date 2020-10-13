@@ -27,3 +27,9 @@ I am interested in this course because:
 - I enjoy making _drone curriculum_
 
 Warning: I do not particularly like troubleshooting issues with drones.
+## Mrs. Jones's SectioN
+
+I am interested in this course because:
+
+**A fun way to teach students about robots**
+__Specifically drone__
