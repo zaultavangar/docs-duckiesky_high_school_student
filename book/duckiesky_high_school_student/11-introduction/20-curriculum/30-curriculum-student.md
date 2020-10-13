@@ -28,7 +28,8 @@ I am interested in this course because:
 
 Warning: I do not particularly like troubleshooting issues with drones.
 
-## Lucas Furtado Section 
+## Lucas Furtado Section
+
 - I am interested in this course because: 
 - I ** always** wanted to build a drone. 
 1. but specifically, drones with cameras.
@@ -36,3 +37,11 @@ Warning: I do not particularly like troubleshooting issues with drones.
 - I think this will help me with my building and ** Engenering ** skills 
 - I _want to learn how to program a drone but also what parts makes a drone_ 
 ps: This is my first time building a drone 
+
+
+## Mrs. Jones's SectioN
+
+I am interested in this course because:
+
+**A fun way to teach students about robots**
+__Specifically drone__
