@@ -35,15 +35,15 @@ Better: Exercise: Students should do the following steps with Bash commands to t
     - The **"echo"** command will echo any input back to the output of the terminal: enter "echo I Love Drones!" just to check. You should get an output of "I Love Drones!".
     - A carat (**">"**) with a file name following it added to any Bash command will take the terminal output of that command and put it into the file.
     - We can use the carat to take the output of the echo command and place it in the World.txt file: enter "echo Hello World > World.txt".
-        1. A cool feature of the carat is that it automatically creates a text file for you if one does not exist. In fact, we didn't even have to use the "touch" command to create the World.txt file before the above "echo" command!
+        - A cool feature of the carat is that it automatically creates a text file for you if one does not exist. In fact, we didn't even have to use the "touch" command to create the World.txt file before the above "echo" command!
 -  Print the contents of the "World.txt" file.
     - Enter "cat World.txt".
     - Congratulations! You have completed this conventional introductory "Hello World" step! 
 - Before continuing, use the VSCode navigator on the left side of the text editor to navigate to the Hello directory and open the World.txt file for viewing purposes (if it's not showing up, you might have to hit the "Refresh Explorer" option).
-    -We could have used this to input the text into the World.txt file, but you may not always have this handy web editor when dealing with a terminal.
--  Delete the "World.txt" file
+    - We could have used this to input the text into the World.txt file, but you may not always have this handy web editor when dealing with a terminal.
+-  Delete the "World.txt" file.
     - The **"rm"** command deletes files: enter "rm World.txt".
--  Leave the "Hello" directory
+-  Leave the "Hello" directory.
     - Using ".." as the argument for the "cd" command will allow you to leave a directory, enter "cd ..".
     - Enter "pwd" to confirm that you have left the directory.
 -  Delete the now empty "Hello" directory.
@@ -69,7 +69,7 @@ Make sure to delete the "Actuators" directory.
 
 - This time, try to delete the directory without deleting the contents of the directory first.
     - You should get the following error: "rmdir: Actuators/: Directory not empty".
-    - Instead, use the command "rm -r Actuators"
+    - Instead, use the command "rm -r Actuators".
         - The "-r" is telling the rm command to delete recursively, which means it will delete all of the files and directories within before deleting the Actuators directory. This is outside the scope of this class, but if you are interested, you can read more about recursive functions [here](https://www.computerhope.com/jargon/r/recursive.htm).
 
 </div>
