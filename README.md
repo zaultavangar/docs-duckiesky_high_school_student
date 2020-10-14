@@ -4,6 +4,7 @@ To compile the book:
 make clean build
 ```
 
-If you just do `make build` it will try to use the 
-cache to speed-up the process; but sometime a `make clean`
-is necessary.
+## ** _HILSON'S Reason_ **
+
+### _The reason I chose this class was because I wanted to try something new._
+
