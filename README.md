@@ -14,3 +14,5 @@ I am interested in this course because:
   __Specifically Drones__
   **STUDENTS BUILD OWN DRONE**
   
+I am interested in this cources:
+because I want learn about **robots and drones**. See how create a drones and the names of the pices.
