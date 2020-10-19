@@ -74,3 +74,40 @@ ps: This is my first time building a drone
 
 - I am interested in this course because: I wanna learn wanted to build a drone
 
+## Nahiomy's Section
+  
+I am interested in this cources:
+because I want learn about **robots and drones**. See how create a drones and the names of the pices.
+
+## ** _HILSON'S Reason_ **
+
+### _The reason I chose this class was because I wanted to try something new._
+
+
+## Ivaldino's section
+  
+  I'm interested isthis book because some resons. 
+  First, I really like to use drone and I love echnology.
+  Second, I like to learn more about parts that make it fly.
+  Also take some picture with the drone, and have fun.
+  
+## Sylvia's Section
+
+I am interested in this course because:
+
+- I wanted to try something that was way out of my comfort zone
+    - Building a drone would be a good learning experience
+- I want to know what goes into programming and coding a drone
+    - Including how long the process of building the drone takes
+- I've always wanted to buy a drone, but being able to build one is much cooler
+    - Learning about all of the parts of a drone should also be a fun experience
+
+## Rebecca's Section
+
+**Hi people**
+
+I wanted to be in this class for multiple reasons:
+
+1. I'll learn the basic skills for building a drone
+2. I'll learn how to code and program a drone
+3. And I could potentially use the knowledge I gain from this class and use it in the outside world
