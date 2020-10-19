@@ -11,7 +11,9 @@ Be creative but you should have in your edit:
 4. Use an ordered or unordered list.
 5. Use a special tag to do something cool!
 
-Once you submit a pull request, hopefully one of our team members will be able to approve it as quickly as possible!
+Once you submit a pull request, hopefully one of our team members will be able to approve it as quickly as possible! 
+
+Warning: Remember that you need to add an extra enter before any new items like section headers, lists, or special tags for them to be recognized by Markduck!
 
 **__MAKE CHANGES BELOW THIS POINT__**
 
@@ -27,3 +29,48 @@ I am interested in this course because:
 - I enjoy making _drone curriculum_
 
 Warning: I do not particularly like troubleshooting issues with drones.
+
+## Mrs. Jones Section v3
+
+Note: I am interested in this course because:
+
+- **__It is a fun way to teach about robots__**
+    - __Specifically Drones__
+        - **STUDENTS BUILD OWN DRONE**
+
+## George's Section
+
+I am interested in this course because:
+
+_I want to learning about drones_
+
+1. I would like to underdtand the mechanics of building a drone.
+2. More specifically assembling the parts.
+    
+[Robotic club] [Pre-engineering internship]
+
+## Lucas Furtado Section
+
+- I am interested in this course because: 
+- I ** always** wanted to build a drone. 
+    1. but specifically, drones with cameras.
+    2. Drones with 4 propellers 
+- I think this will help me with my building and ** Engenering ** skills 
+- I _want to learn how to program a drone but also what parts makes a drone_ 
+ps: This is my first time building a drone 
+
+
+## Luisangel Morales
+**_I am intrested in this course becasue it's something new and intresting so I thought it would be fun and exciting to do._**
+
+1.I want to learn and understand about coding 
+2.I also want to know and understand  the mechanics on buliding a drone 
+
+- This will help me understand how to program a drone. 
+    - This will also help me learn how to use basic skills on building and engenering.
+
+
+## Serigne section
+
+- I am interested in this course because: I wanna learn wanted to build a drone
+
