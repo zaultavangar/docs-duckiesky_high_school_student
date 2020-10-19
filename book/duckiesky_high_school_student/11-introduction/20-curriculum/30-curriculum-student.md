@@ -13,7 +13,11 @@ Be creative but you should have in your edit:
 
 Once you submit a pull request, hopefully one of our team members will be able to approve it as quickly as possible! 
 
-Warning: Remember that you need to add an extra enter before any new items like section headers, lists, or special tags for them to be recognized by Markduck!
+<div class='check' markdown="1">
+
+Remember that you need to add an extra enter before any new items like section headers, lists, or special tags for them to be recognized by Markduck!
+
+</div> 
 
 **__MAKE CHANGES BELOW THIS POINT__**
 
