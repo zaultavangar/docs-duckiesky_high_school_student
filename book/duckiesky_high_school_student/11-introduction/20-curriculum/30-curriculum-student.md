@@ -67,4 +67,10 @@ ps: This is my first time building a drone
 2.I also want to know and understand  the mechanics on buliding a drone 
 
 - This will help me understand how to program a drone. 
-- This will also help me learn how to use basic skills on building and engenering.
+    - This will also help me learn how to use basic skills on building and engenering.
+
+
+## Serigne section
+
+- I am interested in this course because: I wanna learn wanted to build a drone
+
