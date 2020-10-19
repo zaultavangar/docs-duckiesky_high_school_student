@@ -67,8 +67,8 @@ ps: This is my first time building a drone
 ## Luisangel Morales
 **_I am intrested in this course becasue it's something new and intresting so I thought it would be fun and exciting to do._**
 
-1.I want to learn and understand about coding 
-2.I also want to know and understand  the mechanics on buliding a drone 
+1. I want to learn and understand about coding 
+2. I also want to know and understand  the mechanics on buliding a drone 
 
 - This will help me understand how to program a drone. 
     - This will also help me learn how to use basic skills on building and engenering.
