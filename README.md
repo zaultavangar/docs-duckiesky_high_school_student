@@ -8,11 +8,4 @@ If you just do `make build` it will try to use the
 cache to speed-up the process; but sometime a `make clean`
 is necessary.
 
-###Mrs. Jones SEction v3
-I am interested in this course because:
-**__It is a fun way to teach about robots__**
-  __Specifically Drones__
-  **STUDENTS BUILD OWN DRONE**
-  
-I am interested in this cources:
-because I want learn about **robots and drones**. See how create a drones and the names of the pices.
+
