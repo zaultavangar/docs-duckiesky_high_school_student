@@ -115,3 +115,7 @@ I wanted to be in this class for multiple reasons:
 1. I'll learn the basic skills for building a drone
 2. I'll learn how to code and program a drone
 3. And I could potentially use the knowledge I gain from this class and use it in the outside world
+
+## Elijah's Section
+
+I want to learn how to make things like drones and robots because they seam interesting to me.
