@@ -1,5 +1,5 @@
 # Signals and Connections {#electronics-circuitry-signals status=ready}
-
+<!-- gwnote: This lesson needs more background to build up to technical information we are providing. Why do analog and digital signals matter? What is the benefit of using digital? Tell a story about signals, their uses in general, and how the drone uses them. Link to the resources when they are needed to explain a concept. -->
 __Analog signals__
 
 Information can be transmitted through electricity:

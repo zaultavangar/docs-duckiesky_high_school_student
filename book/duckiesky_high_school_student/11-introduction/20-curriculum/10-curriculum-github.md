@@ -7,7 +7,9 @@
         - You should also verify your email address when an email from GitHub is sent to you
 
 ## Git and GitHub Information
+<!-- gwnote: I think we can review the clarity of these definitions to make them more precise. In the Git definition, what exactly is a version?  Also, I'm not sure that version control systems should be considered software programs because they operate at a higher level. In this bitbucket link, they describe a VCS as a "software utility" which might be more clear. https://bitbucket.org/product/version-control-software .
 
+For the GitHub definition, I'm not sure we should describe it as a datastructure; this could cause confusion with programming datastructures, like lists, maps, etc.I think we can expand on what a repository hosting service is, and how it is different from a local repository with Git. We can explain that an individual can use git without GitHub, but using GitHub allows people on teams to all contribute to the same project and review eachothers work.-->
 - What are Git and Github?
     - Git is a widely used version control system. 
         - Version control systems are software programs that allow programmers and code-based project workers to manage the changes to their code-based projects over time with new versions.

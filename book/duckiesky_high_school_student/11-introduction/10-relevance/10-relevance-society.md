@@ -1,6 +1,6 @@
 # Intro to the Course {#introduction-relevance-society status=ready}
 
-Module Overview
+## Vocabulary
 
 _Robot_: a machine (especially one programmable by a computer) designed to execute one or more tasks automatically and efficiently.
 
@@ -8,13 +8,18 @@ _Robot_: a machine (especially one programmable by a computer) designed to execu
 
 _Quadcopter_ a more specific term used to refer to a drone that is flown with four motors.
 
-**Why is it essential to learn about this? How do robotics help our communities in society?**
+<!-- gwnote: could be useful to add drone-specific details as well.
+-->
 
-When we think of a robot, what definition could we reference? 
+## Impact
 
-Robotics matter because they can take autonomous actions in the real physical world, which can affect almost every aspect of human existence. It is an interdisciplinary research area part of Engineering and Science. It involves the design, construction, operation, and use of robots. The end goal is to create intelligent machines that outperform a human being's ability in a specific task or replace said human in a task too complex or far too dangerous. Making them near perfect multi use tools for industries and corporations of any kind. 
+### Why is it essential to learn about robotics? 
 
-Today robots impact the defense industry, manufacturing,  the service industry, and more, with potential to positively transform work practices. 
+Robotics matter because they can take autonomous actions in the real physical world, which can affect almost every aspect of human existence. It is an interdisciplinary research area part of Engineering and Science. It involves the design, construction, operation, and use of robots.
+
+### How do robotics help our communities in society?**
+
+ The end goal is to create intelligent machines that outperform a human being's ability in a specific task or replace said human in a task too complex or far too dangerous. Making them near perfect multi use tools for industries and corporations of any kind. Today robots impact the defense industry, manufacturing,  the service industry, and more, with potential to positively transform work practices. 
 
 **Useful Resources and References**
 

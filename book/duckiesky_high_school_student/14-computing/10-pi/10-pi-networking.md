@@ -1,5 +1,5 @@
 # Networking {#computing-pi-networking status=ready}
-
+<!-- gwnote: an overview of how networking is used on the drone, and a brief introduction to the purpose of the 7 Layers of Abstraction would be appropriate (make students want to click the edX link to learn more!) -->
 ## 7 Layers of Abstraction
 
 -  If not for networking, we would not be able to connect to and run our drones, so it's important for us to learn the concepts of Networking!

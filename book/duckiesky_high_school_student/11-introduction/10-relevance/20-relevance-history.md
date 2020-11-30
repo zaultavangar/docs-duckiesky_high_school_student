@@ -1,5 +1,8 @@
 # Development of Robotics {#introduction-relevance-history status=ready}
 
+<!-- gnote: try using subheaders (##) instead of bolding (*) to make the page
+    more visually appealling -->
+
 **HISTORY**
 
 [Evolution of Robotics](https://www.youtube.com/watch?v=nlrr5b1XWoY) Wired Episode 1
@@ -24,7 +27,7 @@ While the Xenex Zapping Robots design is comparable to a droid from the Star War
 
 ### What Does The Future Hold For Robotics? ###
 
-With rise in computer industries, academia has advanced these inventions into the realm of A.I. (Artificial Intelligence) technology and while growth of this craft is expanding these robots have not made human workers absolete. But what does the future in robotics hold for the world? In 2013 the first safety standards for collaborative robotics was released, allowing for a broader use of robotics with regulations in other trades than the existing industries using robotic technology. Updates such as the Kalman filter, which is commonly used for guidance, navigation, and control in the field of robotics it applies motion planning and trajectory optimization. Putting that together with companies like Boston Dynamics who are recognized for their series of highly mobile robots and the the future of robotics seems to be getting closer and closer to what we may see on a scifi film, hoping the robot uprising is not part of the algorithm. 
+With rise in computer industries, academia has advanced these inventions into the realm of A.I. (Artificial Intelligence) technology and while growth of this craft is expanding these robots have not made human workers obsolete. But what does the future in robotics hold for the world? In 2013 the first safety standards for collaborative robotics was released, allowing for a broader use of robotics with regulations in other trades than the existing industries using robotic technology. Updates such as the Kalman filter, which is commonly used for guidance, navigation, and control in the field of robotics it applies motion planning and trajectory optimization. Putting that together with companies like Boston Dynamics who are recognized for their series of highly mobile robots and the the future of robotics seems to be getting closer and closer to what we may see on a scifi film, hoping the robot uprising is not part of the algorithm. 
 
 ### Vocabulary ###
 

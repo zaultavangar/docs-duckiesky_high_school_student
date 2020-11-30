@@ -12,7 +12,7 @@
  
 </div>
 
-
+<!-- gwnote: for formatting purposes, use the ## title here and then use the ### title for each item  -->
 #### Sensors in your drone:
  
  
@@ -63,6 +63,7 @@
    <figcaption>2 Clockwise and 2 Counterclockwise Blade Propellers (with Extras) </figcaption>
    <img style='width:16em' src="https://m.media-amazon.com/images/I/31FFckRlv7L.jpg"/>
 </figure>
+<!-- gwnote: mention that it may seem weird to consider an LED as an actuator, but that we consider it one since it interacts with the world around it by generating light -->
 
 #### Controllers in your drone: 
 

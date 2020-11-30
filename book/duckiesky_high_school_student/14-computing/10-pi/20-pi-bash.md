@@ -6,6 +6,7 @@
 - We will be learning about Bash commands and the terminal, as mentioned in the Networking Unit. It is important to learn how to utilize a terminal as it is the introduction to the inner processes of the operating system, and it will allow us to directly make changes to our drone!
     - We will be using Bash in the next Unit on Blinking an LED to directly see a change on our drone.
 - Bash is the language that many shells are written in. Actually, our Pi's shell runs with Bash!
+<!-- gwnote: would it be worthwile to note other types of shells like zsh, just to differentiate between bash and the shell? -->
 - Now, click on the terminal in the web editor for the Pi and prepare to input text.
     - Follow the first 10 seconds of [this video](https://drive.google.com/file/d/1HvtKNhsjG_dQt2edeJ40WdhmyO649ZOd/view?usp=sharing) if a terminal is not already open.
 
@@ -15,6 +16,7 @@
 Better: Exercise: Students should do the following steps with Bash commands to test out their knowledge of the terminal. They can do this through the online web editor when connected to the Pi:
 
 - One of the features that a terminal can do is navigate and view the file system of a computer. For instance, folders you would typically find on your home Computer like "Desktop" and "Downloads" are directories. We are just now being introduced to this terminal, so we want to see the directories and files that are in the current location of the file system.
+<!-- gwnote: may want to mention that students exclude the quotations when typing in the command. Markduck may support code using the tick mark: `ls` which might look cleaner -->
     - To do this, we can input (or enter) the Bash command **"ls"** that prints the files and directories in the terminal. Click on the terminal, type "ls", and hit enter.
         - The terminal will output (or print) all of the files and directories in the current location of the terminal. Remember, we are on the Pi's terminal so all of these files and directories are on your Pi.
 - Folders can be within folders, so directories can be within directories! Your terminal is probably in a directory right now; we want to know where we are in our file system, so lets print the current directory name.
@@ -50,6 +52,7 @@ Better: Exercise: Students should do the following steps with Bash commands to t
     - The **"rmdir"** command will allow you to remove an empty directory: enter "rmdir Hello".
     -  Check that the "Hello" directory has been deleted and is not on the list of files/directories by entering "ls".
 - Once you are ready to move on from this exercise, you might not want to have all of the terminal output above lingering around. The **"clear"** command removes all previous output: enter "clear". You can use this at any point to remove previous input/output from the terminal.
+<!-- gwnote: everything look good, but might want to conider adding the pipe | command as well which routes the output of one command as the input to another. maybe also include "grep" to help students find files on the Pi (compare it to using "control-f" in a web browser. can combine grep and | to search for keywords) -->
 
 ## Exploring the Pi's Directories and Files
 

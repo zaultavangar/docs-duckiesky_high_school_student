@@ -1,5 +1,7 @@
 # Simple Circuits {#electronics-circuitry-simple status=ready}
 
+<!-- gwnote: While there are many great links that explain circuits, I think the links could use a proper introduction with a brief background. Consider giving an overview of simple circuits, and linking to the resources when appropriate. -->
+
 **Links that cover info taught in class**
 
 [Energy Conversions Info](https://www.toppr.com/bytes/energy-conversion/)

@@ -9,7 +9,7 @@ After we power up the Pi, navigate to the code [editor](http://192.168.41.1:8081
 ```
 gpio -g mode 6 out
 ```
-
+<!-- gwnote: The BCM was explained in the teacher book, but not the student book. It is worth copying and pasting here for students reference. -->
 In this line, the -g option is the option to define the **GPIO BCM** pin as explained earlier. We can use [this page](https://pi4j.com/1.2/pins/model-b-rev2.html) to figure out the numbering. In this case, our LED is connected to **Pin 6** on the Pi, so we designate the corresponding **GPIO6** to run the **Output** mode, which means that it can provide **High** or **low** signal.
 
 Next, we write the signal on GPIO6 to be High by running this command:
@@ -41,7 +41,7 @@ which gpio
 ```
 
 You should get an output of **/usr/bin/gpio** path.
-
+<!-- gwnote: maybe include a brief explanation what the path is -->
 Now we are ready to make the bash script. The first step is to create a file such as **blink.sh** with the **touch** command.
 
 ```

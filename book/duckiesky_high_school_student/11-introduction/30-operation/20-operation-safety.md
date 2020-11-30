@@ -79,8 +79,12 @@ There are several possible sources of danger that can result from the drone:
 3. parts or propellers dislodging from the drone
 
 4. electric shorts and fires
+
+<!-- gwnote: we should include how to properly handle the LiPo battery. especially monitoring it while charging, and not overcharging, and storing at half-capacity. Can link to this sheet in the build docs (and link the build docs back to this page would be useful). build docs has some info on batteries https://docs.duckietown.org/daffy/opmanual_sky/out/build_safety.html-->
  
 ### Safe Environment
+
+<!-- gwnote: for each potential danger, explain how this would impact the environment. For example, if the propellors fly off, it could hit anyone watching; therefore we wear safety goggles. It could also hit a wall or ceiling, so be sure to ask for parental permission, and make sure there are no valuable objects nearby (like a 10ft radius or so). drone could also fly up and hit ceiling. it shouldn't, but it could. make sure there aren't light fixtures overhead, and it's ok for the drone to strike the ceiling. If not, create an artificial ceiling with posterboard or a blanket, at least for the first flight. -->
  
 _The Bystander Effect:_
 

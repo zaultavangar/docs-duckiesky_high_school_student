@@ -1,5 +1,7 @@
 # Voltage, Current, Resistance {#electronics-circuitry-voltage status=ready}
 
+<!-- gwnote: While there are many great links that explain voltage, current, and resistance, I think the links could use a proper introduction with a brief background. Consider giving an overview of the concepts, and linking to the resources when appropriate. This is also a great space to describe where these concepts are used on the drone. -->
+
 **Links that cover info taught in class**
 
 [How voltage, resistance, and current relate mathmatically using Ohm's law](https://spl-binal.blogspot.com/2017/09/ohms-law.html#.XvqBNihKhhE)
