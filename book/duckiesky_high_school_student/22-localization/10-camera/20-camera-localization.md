@@ -46,7 +46,7 @@ During the Predicition phase the drone doesn't know where it is in the map and c
  
  
 
-During the Update phase the drone updates the particles to be aware of the where on the map it is at. 
+During the Update phase the drone updates the particles to be aware of where on the map it is at. 
 
  
  
