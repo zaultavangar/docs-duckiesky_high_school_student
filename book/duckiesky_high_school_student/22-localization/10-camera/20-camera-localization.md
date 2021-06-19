@@ -56,7 +56,7 @@ During the Update phase the drone updates the particles to be aware of the where
  
  
 
-DUring the Resamplying Phase the weighted particles with higher numbers are recycled while deleting the lower weighted particles. 
+During the Resamplying Phase the weighted particles with higher numbers are recycled while deleting the lower weighted particles. 
 
  
  
