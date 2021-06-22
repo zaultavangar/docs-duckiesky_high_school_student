@@ -3,7 +3,7 @@
 **Explain the definition of roll, pitch, and yaw.**
 
 <figure>
-    <figcaption>Roll, Pitch, and Yaw Diagram (https://upload.wikimedia.org/wikipedia/commons/0/04/Flight_dynamics_with_text_ortho.svg)</figcaption>
+    <figcaption>Roll, Pitch, and Yaw Diagram</figcaption>
     <img style='width:12em' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flight_dynamics_with_text_ortho.svg/1200px-Flight_dynamics_with_text_ortho.svg.png"/>
 </figure>
 
@@ -13,7 +13,7 @@ With the help of this picture, teacher introduces the terms roll pitch and yaw, 
 
 Question 1:
 
-A: Analog-to-Digital Converter (ADC)! [Here (Material 3.15)](https://docs.duckietown.org/daffy/opmanual_sky/out/build_materials_included.html) is how it looks like. 
+>! A: Analog-to-Digital Converter (ADC)! [Here (Material 3.15)](https://docs.duckietown.org/daffy/opmanual_sky/out/build_materials_included.html) is how it looks like. 
 
 <div class='requirements' markdown="1">
 
