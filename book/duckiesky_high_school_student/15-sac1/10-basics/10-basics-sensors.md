@@ -36,8 +36,15 @@ Voltage or Current is produced by the sensors -> amplification (convert to volta
 </figure>
 
 Question 2:
+<details>
+<summary>
+<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Answer</a>    
+</summary>
 
-A: Interpolation (estimate the data points in between known data) and extrapolation (using the current trend to predict the future data)
+Interpolation (estimate the data points in between known data) and extrapolation (using the current trend to predict the future data)
+
+</details>
+
 
 <figure>
     <figcaption>Interpolation and Exterpolation Graph</figcaption>
@@ -46,7 +53,10 @@ A: Interpolation (estimate the data points in between known data) and extrapolat
 
 Question 3:
 
-A: 
+<details>
+<summary>
+<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Answer</a>    
+</summary>
 
     - Filtering Frequencies: cut the frequency measurements that are unreasonably high or low
 
@@ -54,3 +64,8 @@ A:
 
     - Cleverly decide which data are trustworthy
 
+</details>
+
+
+
+   
