@@ -57,11 +57,11 @@ Interpolation (estimate the data points in between known data) and extrapolation
 Question 3:
 
 <details>
-    <summary> Answer </summary>
+<summary> Answer </summary>
 
-    * Filtering Frequencies: cut the frequency measurements that are unreasonably high or low  
-    * Combining data from multiple sensors  
-    * Cleverly decide which data are trustworthy
+1. Filtering Frequencies: cut the frequency measurements that are unreasonably high or low  
+2. Combining data from multiple sensors  
+3. Cleverly decide which data are trustworthy
 
 </details>
 
