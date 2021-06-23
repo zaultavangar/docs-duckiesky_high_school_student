@@ -18,7 +18,9 @@ Question 1:
 <a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Answer</a>    
 </summary>
 
-Analog-to-Digital Converter (ADC)! [Here (Material 3.15)](https://docs.duckietown.org/daffy/opmanual_sky/out/build_materials_included.html) is how it looks like. 
+Analog-to-Digital Converter (ADC)! 
+
+[Here (Material 3.15)](https://docs.duckietown.org/daffy/opmanual_sky/out/build_materials_included.html) is how it looks like. 
 
 </details>
 
@@ -36,6 +38,7 @@ Voltage or Current is produced by the sensors -> amplification (convert to volta
 </figure>
 
 Question 2:
+
 <details>
 <summary>
 <a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Answer</a>    
@@ -58,14 +61,26 @@ Question 3:
 <a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Answer</a>    
 </summary>
 
-    - Filtering Frequencies: cut the frequency measurements that are unreasonably high or low
+Filtering Frequencies: cut the frequency measurements that are unreasonably high or low
 
-    - Combining data from multiple sensors
+Combining data from multiple sensors
 
-    - Cleverly decide which data are trustworthy
+Cleverly decide which data are trustworthy
 
 </details>
 
+Test Case:
+
+<details>
+<summary>
+<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Show all details</a>    
+</summary>
+This text is used as a placeholder or a tk note. Words that will follow won't make any sense and this is fine. At the moment, the goal is to build a structure for our site.
+
+Cheers!
+[Pascal](https://twitter.com/askpascalandy/)
+
+</details>
 
 
    
