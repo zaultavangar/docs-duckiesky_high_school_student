@@ -20,7 +20,7 @@ Question 1:
 
 Analog-to-Digital Converter (ADC)! 
 
-[Here (Material 3.15)](https://docs.duckietown.org/daffy/opmanual_sky/out/build_materials_included.html) is how it looks like. 
+[Here (Material 3.15) is what it looks like.](https://docs.duckietown.org/daffy/opmanual_sky/out/build_materials_included.html) 
 
 </details>
 
@@ -61,11 +61,9 @@ Question 3:
 <a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Answer</a>    
 </summary>
 
-Filtering Frequencies: cut the frequency measurements that are unreasonably high or low
-
-Combining data from multiple sensors
-
-Cleverly decide which data are trustworthy
+* Filtering Frequencies: cut the frequency measurements that are unreasonably high or low  
+* Combining data from multiple sensors  
+* Cleverly decide which data are trustworthy
 
 </details>
 
