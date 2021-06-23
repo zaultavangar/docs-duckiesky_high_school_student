@@ -59,26 +59,13 @@ Question 3:
 <details>
 <summary> Answer </summary>
 
-- Filtering Frequencies: cut the frequency measurements that are unreasonably high or low  
-- Combining data from multiple sensors  
-- Cleverly decide which data are trustworthy
+- Filtering Frequencies: cut the frequency measurements that are unreasonably high or low, Combining data from multiple sensors, Cleverly decide which data are trustworthy
 
 </details>
 
-- gideon
-- james 
 
-Test Case:
 
-<details>
-<summary> <a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Show all details</a>    
-</summary>
-This text is used as a placeholder or a tk note. Words that will follow won't make any sense and this is fine. At the moment, the goal is to build a structure for our site.
 
-Cheers!
-[Pascal](https://twitter.com/askpascalandy/)
-
-</details>
 
 
    
