@@ -7,7 +7,16 @@
     <img style='width:12em' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flight_dynamics_with_text_ortho.svg/1200px-Flight_dynamics_with_text_ortho.svg.png"/>
 </figure>
 
-With the help of this picture, teacher introduces the terms roll pitch and yaw, and then asks the students to identify which of the sensors measure each of them (IMU for roll and pitch, camera for yaw)
+Certain sensors on the drone measure Pitch, Roll, and Yaw. The IMU measures roll and pitch; The camera measures yaw. 
+
+Now, let's define some terms from the picture above.
+
+Pitch- The rotation of the flying body around a side-to-side axis. It can be thought of as an “up and down”  motion.
+Roll- The motion of the flying body rocking back and forth. It can be thought of as the wings of a plane "tilting up or down"
+Yaw- The rotation of the flying body along a vertical axis. It can be thought of "twisting left and right".
+
+[Ref:](https://calaero.edu/aircraft-axes-pitch-yaw-roll/)
+
 
 **Answers for Class Discussion Questions**
 
