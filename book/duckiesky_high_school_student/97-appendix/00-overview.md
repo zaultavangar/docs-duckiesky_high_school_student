@@ -1,1 +1,3 @@
-# Apenndix {#part:appendix status=ready}
+# Appendix {#part:appendix status=ready}
+
+This sections contains supplementary material.
