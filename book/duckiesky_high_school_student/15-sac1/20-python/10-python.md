@@ -1,4 +1,4 @@
-# Python {#sac1-python status=ready}
+# Python {#sac1-python-exercises status=ready}
 
 This drone is programmed in the Python programming language. 
 
