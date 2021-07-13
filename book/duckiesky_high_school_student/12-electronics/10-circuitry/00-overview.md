@@ -1,3 +1,3 @@
 # Circuitry {#subpart:electronics-circuitry status=ready}
 
-This section introduces the concept of electrical circuits, how they are created, and their basic characteristics including voltage, current, and resistance. This section also contains tutorials on soldering, which is used to create circuit connections on the drone. The knowledge and skills in this section will prepare you to start the drone build!
+This subsection explains basic circuit elements, how to create a circuit, and fundamental circuit characteristics including voltage, current, and resistance. This subsection also demonstrates how changing voltages and currents can create signals that carry information about a system. 
